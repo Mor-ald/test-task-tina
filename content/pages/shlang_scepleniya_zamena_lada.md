@@ -1,0 +1,10 @@
+---
+title: Шланг сцепления - замена
+blocks:
+  - header: Шланг сцепления - замена
+    time: '0,2'
+    coef: '1419'
+    model: ЛАДА
+    _template: servTemplate
+---
+        

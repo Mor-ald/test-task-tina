@@ -1,0 +1,114 @@
+{
+  "header": {
+    "logo": "logo.svg",
+    "startTime": "8:00",
+    "endTime": "20:00",
+    "address": [
+      {
+        "label": "м. «Просвещения», Придорожная аллея, д. 12Б"
+      },
+      {
+        "label": "м. «Дунайская», Малая Балканская ул., д. 59А"
+      },
+      {
+        "label": "м. «Большевиков», Ванеева ул., д. 10, лит А"
+      }
+    ],
+    "phones": [
+      {
+        "phone": "8 (931) 399-67-57",
+        "address": "м. Большевиков"
+      },
+      {
+        "phone": "8 (929) 107-67-37",
+        "address": "м. Просвещения"
+      },
+      {
+        "phone": "8 (969) 707-67-59",
+        "address": "м. Дунайская"
+      },
+      {
+        "phone": "8 (929) 107-67-47",
+        "address": "Малярный Цех"
+      },
+      {
+        "phone": "8 (929) 107-60-00",
+        "address": "Отдел Контроля качества"
+      }
+    ],
+    "email": "sto@sto-arm.ru",
+    "icon": {
+      "color": "yellow",
+      "style": "circle"
+    },
+    "name": "",
+    "color": "default",
+    "nav": [
+      {
+        "href": "home",
+        "label": "Главная"
+      },
+      {
+        "href": "about",
+        "label": "О компании"
+      },
+      {
+        "href": "service",
+        "label": "Услуги"
+      },
+      {
+        "href": "prices",
+        "label": "Прайс-листы"
+      },
+      {
+        "href": "vacancies",
+        "label": "Вакансии"
+      },
+      {
+        "href": "promotions",
+        "label": "Акции"
+      },
+      {
+        "href": "contacts",
+        "label": "Контакты"
+      }
+    ]
+  },
+  "footer": {
+    "footerAbout": {
+      "aboutHeader": "Коротко о нас",
+      "aboutEmail": "sto@sto-arm.ru",
+      "abotText": "Мастерская имеет все необходимые сертификаты, штат грамотных специалистов и доступные цены на ремонт.\n"
+    },
+    "footerContacts": {
+      "contHeader": "Контакты",
+      "contPhone": " +7 (931) 399-67-57",
+      "contAddress": [
+        {
+          "href": "https://yandex.ru/maps/2/saint-petersburg/house/ulitsa_vaneyeva_10/Z0kYcgJgSkEBQFtjfXVzeXlhbA==/?ll=30.450346%2C59.928528&z=16.57",
+          "label": "м. «Большевиков», Ванеева ул., д. 10, лит А"
+        },
+        {
+          "href": "https://yandex.ru/maps/2/saint-petersburg/house/pridorozhnaya_alleya_12b/Z0kYdQJiSEwBQFhqfXx0dnRjYg==/?ll=30.352196%2C60.057806&z=16.57",
+          "label": "м. «Просвещения», Придорожная аллея, д. 12Б"
+        },
+        {
+          "href": "https://yandex.ru/maps/2/saint-petersburg/house/malaya_balkanskaya_ulitsa_59a/Z0kYcgRgSU0HQFtjfXRzeXpqYQ==/?ll=30.430080%2C59.828695&z=16.57",
+          "label": "м. «Дунайская», Малая Балканская ул., д. 59А"
+        }
+      ]
+    },
+    "footerConsul": {
+      "consHeader": "Консультация",
+      "consText": "Оставьте Ваш номер и наши специалисты свяжутся с вами\n"
+    },
+    "footerCopy": {
+      "copyText": "Просим обратить внимание на то, что вся указанная на сайте информация, касающаяся комплектаций, технических характеристик, цветовых сочетаний, а также цены на товар носит информационный характер и не является публичной офертой, определяемой положениями Статьи 437 (2) Гражданского кодекса Российской Федерации. Для получения детальной информации, пожалуйста, обратитесь к нашим менеджерам по телефону\n"
+    }
+  },
+  "theme": {
+    "color": "orange",
+    "font": "sans",
+    "darkMode": "light"
+  }
+}
