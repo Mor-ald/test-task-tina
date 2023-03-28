@@ -67,7 +67,7 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
                       data-tinafield={`blocks.${i}`}
                       key={i + block.__typename}
                     >
-                      <Slider data={block} parentField={`blocks.${i}`} />
+                      <Slider data={block} />
                     </div>
                   );  
                   case "PageBlocksServices":
@@ -76,7 +76,7 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
                         data-tinafield={`blocks.${i}`}
                         key={i + block.__typename}
                       >
-                        <Services data={block} parentField={`blocks.${i}`} />
+                        <Services data={block} />
                       </div>
                     ); 
                     case "PageBlocksFeaturesArm":
@@ -85,7 +85,7 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
                           data-tinafield={`blocks.${i}`}
                           key={i + block.__typename}
                         >
-                          <FeaturesArm data={block} parentField={`blocks.${i}`} />
+                          <FeaturesArm data={block}/>
                         </div>
                       ); 
                     case "PageBlocksAskQuestion":
@@ -94,7 +94,7 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
                           data-tinafield={`blocks.${i}`}
                           key={i + block.__typename}
                         >
-                          <AskQuestion data={block} parentField={`blocks.${i}`} />
+                          <AskQuestion data={block}/>
                         </div>
                       ); 
                       case "PageBlocksPartners":
@@ -112,7 +112,7 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
                               data-tinafield={`blocks.${i}`}
                               key={i + block.__typename}
                             >
-                              <Edem data={block} parentField={`blocks.${i}`} />
+                              <Edem data={block} />
                             </div>
                           );
                           case "PageBlocksYandexRev":
@@ -121,7 +121,7 @@ export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {
                                 data-tinafield={`blocks.${i}`}
                                 key={i + block.__typename}
                               >
-                                <YandexRev data={block} parentField={`blocks.${i}`} />
+                                <YandexRev data={block} />
                               </div>
                             );       
                             case "PageBlocksAbout":
