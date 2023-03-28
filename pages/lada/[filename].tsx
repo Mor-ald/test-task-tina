@@ -28,7 +28,7 @@ export default function ServiceLadaPage(
 }
 
 export const getStaticProps = async ({ params }) => {
-  const tinaProps = await client.queries.serviceLada({
+  const tinaProps = await client.queries.serviceLadaQuery({
     relativePath: `${params.filename}.md`,
   });
   return {

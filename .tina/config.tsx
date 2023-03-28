@@ -20,7 +20,6 @@ import { priceTableBlockSchema } from "../components/blocks/priceTable";
 import { photosGalleryBlockSchema } from "../components/blocks/photosGallery";
 import { servTemplateBlockSchema } from "../components/blocks/servTemplate";
 
-
 const config = defineConfig({
   clientId: process.env.REACT_APP_CLIENT_ID!,
   branch:
@@ -158,6 +157,210 @@ const config = defineConfig({
             ],
             isBody: true,
           },
+        ],
+      },
+
+      {
+        label: "Услуги Газель 4216",
+        name: "serviceGaz4216",
+        path: "content/gaz4216",
+        format: "md",
+        ui: {
+          router: ({ document }) => {
+            return `/gaz4216/${document._sys.filename}`;
+          },
+        },
+        fields: [
+          {
+            type: "string",
+            label: "Header",
+            name: "header",
+        },
+        {
+            type: "string",
+            label: "Время выполенения работы",
+            name: "time",
+        },
+        {
+            type: "string",
+            label: "Коэффициент",
+            name: "coef",
+        },
+        {
+            type: "string",
+            label: "Модель",
+            name: "model",
+        },
+        ],
+      },
+
+      {
+        label: "Услуги Соболь",
+        name: "serviceSobol",
+        path: "content/sobol",
+        format: "md",
+        ui: {
+          router: ({ document }) => {
+            return `/sobol/${document._sys.filename}`;
+          },
+        },
+        fields: [
+          {
+            type: "string",
+            label: "Header",
+            name: "header",
+        },
+        {
+            type: "string",
+            label: "Время выполенения работы",
+            name: "time",
+        },
+        {
+            type: "string",
+            label: "Коэффициент",
+            name: "coef",
+        },
+        {
+            type: "string",
+            label: "Модель",
+            name: "model",
+        },
+        ],
+      },
+
+      {
+        label: "Услуги ГАЗон Некст",
+        name: "serviceNext",
+        path: "content/next",
+        format: "md",
+        ui: {
+          router: ({ document }) => {
+            return `/next/${document._sys.filename}`;
+          },
+        },
+        fields: [
+          {
+            type: "string",
+            label: "Header",
+            name: "header",
+        },
+        {
+            type: "string",
+            label: "Время выполенения работы",
+            name: "time",
+        },
+        {
+            type: "string",
+            label: "Коэффициент",
+            name: "coef",
+        },
+        {
+            type: "string",
+            label: "Модель",
+            name: "model",
+        },
+        ],
+      },
+
+      {
+        label: "Услуги Газель-Некст 2,8",
+        name: "serviceNext28",
+        path: "content/next28",
+        format: "md",
+        ui: {
+          router: ({ document }) => {
+            return `/next28/${document._sys.filename}`;
+          },
+        },
+        fields: [
+          {
+            type: "string",
+            label: "Header",
+            name: "header",
+        },
+        {
+            type: "string",
+            label: "Время выполенения работы",
+            name: "time",
+        },
+        {
+            type: "string",
+            label: "Коэффициент",
+            name: "coef",
+        },
+        {
+            type: "string",
+            label: "Модель",
+            name: "model",
+        },
+        ],
+      },
+
+      {
+        label: "Услуги Газель-Некст 2,7",
+        name: "serviceNext27",
+        path: "content/next27",
+        format: "md",
+        ui: {
+          router: ({ document }) => {
+            return `/next27/${document._sys.filename}`;
+          },
+        },
+        fields: [
+          {
+            type: "string",
+            label: "Header",
+            name: "header",
+        },
+        {
+            type: "string",
+            label: "Время выполенения работы",
+            name: "time",
+        },
+        {
+            type: "string",
+            label: "Коэффициент",
+            name: "coef",
+        },
+        {
+            type: "string",
+            label: "Модель",
+            name: "model",
+        },
+        ],
+      },
+
+      {
+        label: "Услуги Лада",
+        name: "serviceLada",
+        path: "content/lada",
+        format: "md",
+        ui: {
+          router: ({ document }) => {
+            return `/lada/${document._sys.filename}`;
+          },
+        },
+        fields: [
+          {
+            type: "string",
+            label: "Header",
+            name: "header",
+        },
+        {
+            type: "string",
+            label: "Время выполенения работы",
+            name: "time",
+        },
+        {
+            type: "string",
+            label: "Коэффициент",
+            name: "coef",
+        },
+        {
+            type: "string",
+            label: "Модель",
+            name: "model",
+        },
         ],
       },
 
@@ -524,209 +727,7 @@ const config = defineConfig({
         ],
       },
       
-      {
-        label: "Услуги Газель 4216",
-        name: "serviceGaz4216",
-        path: "content/gaz4216",
-        format: "md",
-        ui: {
-          router: ({ document }) => {
-            return `/gaz4216/${document._sys.filename}`;
-          },
-        },
-        fields: [
-          {
-            type: "string",
-            label: "Header",
-            name: "header",
-        },
-        {
-            type: "string",
-            label: "Время выполенения работы",
-            name: "time",
-        },
-        {
-            type: "string",
-            label: "Коэффициент",
-            name: "coef",
-        },
-        {
-            type: "string",
-            label: "Модель",
-            name: "model",
-        },
-        ],
-      },
 
-      {
-        label: "Услуги Соболь",
-        name: "serviceSobol",
-        path: "content/sobol",
-        format: "md",
-        ui: {
-          router: ({ document }) => {
-            return `/sobol/${document._sys.filename}`;
-          },
-        },
-        fields: [
-          {
-            type: "string",
-            label: "Header",
-            name: "header",
-        },
-        {
-            type: "string",
-            label: "Время выполенения работы",
-            name: "time",
-        },
-        {
-            type: "string",
-            label: "Коэффициент",
-            name: "coef",
-        },
-        {
-            type: "string",
-            label: "Модель",
-            name: "model",
-        },
-        ],
-      },
-
-      {
-        label: "Услуги ГАЗон Некст",
-        name: "serviceNext",
-        path: "content/next",
-        format: "md",
-        ui: {
-          router: ({ document }) => {
-            return `/next/${document._sys.filename}`;
-          },
-        },
-        fields: [
-          {
-            type: "string",
-            label: "Header",
-            name: "header",
-        },
-        {
-            type: "string",
-            label: "Время выполенения работы",
-            name: "time",
-        },
-        {
-            type: "string",
-            label: "Коэффициент",
-            name: "coef",
-        },
-        {
-            type: "string",
-            label: "Модель",
-            name: "model",
-        },
-        ],
-      },
-
-      {
-        label: "Услуги Газель-Некст 2,8",
-        name: "serviceNext28",
-        path: "content/next28",
-        format: "md",
-        ui: {
-          router: ({ document }) => {
-            return `/next28/${document._sys.filename}`;
-          },
-        },
-        fields: [
-          {
-            type: "string",
-            label: "Header",
-            name: "header",
-        },
-        {
-            type: "string",
-            label: "Время выполенения работы",
-            name: "time",
-        },
-        {
-            type: "string",
-            label: "Коэффициент",
-            name: "coef",
-        },
-        {
-            type: "string",
-            label: "Модель",
-            name: "model",
-        },
-        ],
-      },
-
-      {
-        label: "Услуги Газель-Некст 2,7",
-        name: "serviceNext27",
-        path: "content/next27",
-        format: "md",
-        ui: {
-          router: ({ document }) => {
-            return `/next27/${document._sys.filename}`;
-          },
-        },
-        fields: [
-          {
-            type: "string",
-            label: "Header",
-            name: "header",
-        },
-        {
-            type: "string",
-            label: "Время выполенения работы",
-            name: "time",
-        },
-        {
-            type: "string",
-            label: "Коэффициент",
-            name: "coef",
-        },
-        {
-            type: "string",
-            label: "Модель",
-            name: "model",
-        },
-        ],
-      },
-
-      {
-        label: "Услуги Лада",
-        name: "serviceLada",
-        path: "content/lada",
-        format: "md",
-        ui: {
-          router: ({ document }) => {
-            return `/lada/${document._sys.filename}`;
-          },
-        },
-        fields: [
-          {
-            type: "string",
-            label: "Header",
-            name: "header",
-        },
-        {
-            type: "string",
-            label: "Время выполенения работы",
-            name: "time",
-        },
-        {
-            type: "string",
-            label: "Коэффициент",
-            name: "coef",
-        },
-        {
-            type: "string",
-            label: "Модель",
-            name: "model",
-        },
-        ],
-      },
     ],
   },
 });

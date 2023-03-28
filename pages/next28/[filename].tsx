@@ -28,7 +28,7 @@ export default function ServiceNext28Page(
 }
 
 export const getStaticProps = async ({ params }) => {
-  const tinaProps = await client.queries.serviceNext28({
+  const tinaProps = await client.queries.serviceNext28Query({
     relativePath: `${params.filename}.md`,
   });
   return {

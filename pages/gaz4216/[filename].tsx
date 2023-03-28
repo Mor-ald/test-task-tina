@@ -28,7 +28,7 @@ export default function ServiceGaz4216Page(
 }
 
 export const getStaticProps = async ({ params }) => {
-  const tinaProps = await client.queries.serviceGaz4216({
+  const tinaProps = await client.queries.serviceGaz4216Query({
     relativePath: `${params.filename}.md`,
   });
   return {

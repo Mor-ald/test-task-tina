@@ -38,3 +38,46 @@ query blogPostQuery($relativePath: String!) {
     }
   }
 }
+
+
+query serviceGaz4216Query($relativePath: String!) {
+  ...LayoutQueryFragment
+  serviceGaz4216(relativePath: $relativePath) {
+    ...ServiceGaz4216Parts
+  }
+}
+
+query serviceNextDefaultQuery($relativePath: String!) {
+  ...LayoutQueryFragment
+  serviceNext(relativePath: $relativePath) {
+    ...ServiceNextParts
+  }
+}
+
+query serviceNext27Query($relativePath: String!) {
+  ...LayoutQueryFragment
+  serviceNext27(relativePath: $relativePath) {
+    ...ServiceNext27Parts
+  }
+}
+
+query serviceNext28Query($relativePath: String!) {
+  ...LayoutQueryFragment
+  serviceNext28(relativePath: $relativePath) {
+    ...ServiceNext28Parts
+  }
+}
+
+query serviceSobolQuery($relativePath: String!) {
+  ...LayoutQueryFragment
+  serviceNext28(relativePath: $relativePath) {
+    ...ServiceNext28Parts
+  }
+}
+
+query serviceLadaQuery($relativePath: String!) {
+  ...LayoutQueryFragment
+  serviceLada(relativePath: $relativePath) {
+    ...ServiceLadaParts
+  }
+}

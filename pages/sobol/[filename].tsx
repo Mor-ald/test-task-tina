@@ -28,7 +28,7 @@ export default function ServiceSobolPage(
 }
 
 export const getStaticProps = async ({ params }) => {
-  const tinaProps = await client.queries.serviceSobol({
+  const tinaProps = await client.queries.serviceSobolQuery({
     relativePath: `${params.filename}.md`,
   });
   return {
