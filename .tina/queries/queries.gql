@@ -70,8 +70,8 @@ query serviceNext28Query($relativePath: String!) {
 
 query serviceSobolQuery($relativePath: String!) {
   ...LayoutQueryFragment
-  serviceNext28(relativePath: $relativePath) {
-    ...ServiceNext28Parts
+  serviceSobol(relativePath: $relativePath) {
+    ...ServiceSobolParts
   }
 }
 
