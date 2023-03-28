@@ -17,7 +17,7 @@ export const ListLinks = ({ data, parentField = "" }) => {
 
     return (
       <Section color={data.color} data-tinafield={`${parentField}.body`}>
-            <div className="my-12 mx-24 flex flex-col items-center">
+            <div className="flex flex-col items-center md:my-12 md:mx-24">
                 {!data.header || 
                     <TreeTable value={values} stripedRows showGridlines>
                         <Column field="linkName" header={data.header} body={itemTemplate} filter filterPlaceholder="Поиск..." ></Column>

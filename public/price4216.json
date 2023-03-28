@@ -2,766 +2,766 @@
     {
         "name": "Измерение давления масла",
         "time": "0,9",
-        "url": "/gaz4216_izmerenie_davleniya_masla"
+        "url": "/gaz4216/izmerenie_davleniya_masla"
       },
       {
         "name": "Измерение давления в топливной системе",
         "time": "0,5",
-        "url": "/gaz4216_izmerenie_davleniya_v_toplivnoj_sisteme"
+        "url": "/gaz4216/izmerenie_davleniya_v_toplivnoj_sisteme"
       },
       {
         "name": "Замер компрессии",
         "time": "1",
-        "url": "/gaz4216_zamer_kompressii_krome"
+        "url": "/gaz4216/zamer_kompressii_krome"
       },
       {
         "name": "Компьютерная диагностика и сброс ошибок",
         "time": "0,5",
-        "url": "/gaz4216_kompyuternaya_diagnostika_i_sbros_oshibok"
+        "url": "/gaz4216/kompyuternaya_diagnostika_i_sbros_oshibok"
       },
       {
         "name": "Компьютерная диагностика",
         "time": "0,5",
-        "url": "/gaz4216_kompyuternaya_diagnostika_1"
+        "url": "/gaz4216/kompyuternaya_diagnostika_1"
       },
       {
         "name": "Проверка уровня масла ЗМ",
         "time": "0,35",
-        "url": "/gaz4216_proverka_urovnya_masla_zm"
+        "url": "/gaz4216/proverka_urovnya_masla_zm"
       },
       {
         "name": "Проверка уровня масла масла в КПП",
         "time": "0,35",
-        "url": "/gaz4216_proverka_urovnya_masla_masla_v_kpp"
+        "url": "/gaz4216/proverka_urovnya_masla_masla_v_kpp"
       },
       {
         "name": "Диагностика трансмиссии",
         "time": "0,75",
-        "url": "/gaz4216_diagnostika_transmissii"
+        "url": "/gaz4216/diagnostika_transmissii"
       },
       {
         "name": "Проверка уровня всех жидкостей",
         "time": "0,8",
-        "url": "/gaz4216_proverka_urovnya_vseh_zhidkostej"
+        "url": "/gaz4216/proverka_urovnya_vseh_zhidkostej"
       },
       {
         "name": "Диагностика электрики (все модели ГАЗ, автомобиль полностью), углубленная",
         "time": "0,9",
-        "url": "/gaz4216_diagnostika_elektriki_vse_modeli_gaz_avtomobil_polnostyu_uglublennaya"
+        "url": "/gaz4216/diagnostika_elektriki_vse_modeli_gaz_avtomobil_polnostyu_uglublennaya"
       },
       {
         "name": "Замена двигателя",
         "time": "10",
-        "url": "/gaz4216_zamena_dvigatelya"
+        "url": "/gaz4216/zamena_dvigatelya"
       },
       {
         "name": "Разборка дефиктовка двигателя",
         "time": "12",
-        "url": "/gaz4216_razborka_defiktovka_dvigatelya"
+        "url": "/gaz4216/razborka_defiktovka_dvigatelya"
       },
       {
         "name": "Сборка двигателя",
         "time": "15",
-        "url": "/gaz4216_sborka_dvigatelya"
+        "url": "/gaz4216/sborka_dvigatelya"
       },
       {
         "name": "Снятие/установка двигателя",
         "time": "10",
-        "url": "/gaz4216_snyatie_ustanovka_dvigatelya"
+        "url": "/gaz4216/snyatie_ustanovka_dvigatelya"
       },
       {
         "name": "Мойка деталей двигателя ремонте",
         "time": "0,5",
-        "url": "/gaz4216_mojka_detalej_dvigatelya_remonte"
+        "url": "/gaz4216/mojka_detalej_dvigatelya_remonte"
       },
       {
         "name": "Мойка деталей двигателя полном ремонте",
         "time": "2",
-        "url": "/gaz4216_mojka_detalej_dvigatelya_polnom_remonte"
+        "url": "/gaz4216/mojka_detalej_dvigatelya_polnom_remonte"
       },
       {
         "name": "Замена шестерни ГРМ",
         "time": "5",
-        "url": "/gaz4216_zamena_shesterni_grm"
+        "url": "/gaz4216/zamena_shesterni_grm"
       },
       {
         "name": "Замена ГБЦ",
         "time": "12,5",
-        "url": "/gaz4216_zamena_gbc"
+        "url": "/gaz4216/zamena_gbc"
       },
       {
         "name": "Замена прокладки ГБЦ",
         "time": "8",
-        "url": "/gaz4216_zamena_prokladki_gbc"
+        "url": "/gaz4216/zamena_prokladki_gbc"
       },
       {
         "name": "Замена датчика распредвала",
         "time": "0,35",
-        "url": "/gaz4216_zamena_datchika_raspredvala"
+        "url": "/gaz4216/zamena_datchika_raspredvala"
       },
       {
         "name": "Замена датчика коленвала",
         "time": "0,35",
-        "url": "/gaz4216_zamena_datchika_kolenvala"
+        "url": "/gaz4216/zamena_datchika_kolenvala"
       },
       {
         "name": "Замена заднего сальника коленвала",
         "time": "5,5",
-        "url": "/gaz4216_zamena_zadnego_salnika_kolenvala"
+        "url": "/gaz4216/zamena_zadnego_salnika_kolenvala"
       },
       {
         "name": "Замена переднего сальника коленвала",
         "time": "3,5",
-        "url": "/gaz4216_zamena_perednego_salnika_kolenvala"
+        "url": "/gaz4216/zamena_perednego_salnika_kolenvala"
       },
       {
         "name": "Замена шестерни распредвала",
         "time": "5",
-        "url": "/gaz4216_zamena_shesterni_raspredvala"
+        "url": "/gaz4216/zamena_shesterni_raspredvala"
       },
       {
         "name": "Замена гидрокомпенсаторов",
         "time": "3",
-        "url": "/gaz4216_zamena_gidrokompensatorov"
+        "url": "/gaz4216/zamena_gidrokompensatorov"
       },
       {
         "name": "Замена масла в двигателе",
         "time": "0,7",
-        "url": "/gaz4216_zamena_masla_v_dvigatele"
+        "url": "/gaz4216/zamena_masla_v_dvigatele"
       },
       {
         "name": "Замена карданного вала",
         "time": "1",
-        "url": "/gaz4216_zamena_kardannogo_vala"
+        "url": "/gaz4216/zamena_kardannogo_vala"
       },
       {
         "name": "Замена редуктора заднего моста в сборе Газель",
         "time": "3",
-        "url": "/gaz4216_zamena_reduktora_zadnego_mosta_v_sbore_gazel"
+        "url": "/gaz4216/zamena_reduktora_zadnego_mosta_v_sbore_gazel"
       },
       {
         "name": "Замена крестовины кардана (на снятом карданном вале)",
         "time": "0,6",
-        "url": "/gaz4216_zamena_krestoviny_kardana_na_snyatom_kardannom_vale"
+        "url": "/gaz4216/zamena_krestoviny_kardana_na_snyatom_kardannom_vale"
       },
       {
         "name": "Замена сцепления",
         "time": "4,5",
-        "url": "/gaz4216_zamena_scepleniya"
+        "url": "/gaz4216/zamena_scepleniya"
       },
       {
         "name": "Замена жидкости в гидравлическом приводе сцепления",
         "time": "0,55",
-        "url": "/gaz4216_zamena_zhidkosti_v_gidravlicheskom_privode_scepleniya"
+        "url": "/gaz4216/zamena_zhidkosti_v_gidravlicheskom_privode_scepleniya"
       },
       {
         "name": "Замена рабочего цилиндра",
         "time": "0,8",
-        "url": "/gaz4216_zamena_rabochego_cilindra"
+        "url": "/gaz4216/zamena_rabochego_cilindra"
       },
       {
         "name": "Замена КПП",
         "time": "4",
-        "url": "/gaz4216_zamena_kpp"
+        "url": "/gaz4216/zamena_kpp"
       },
       {
         "name": "Ремонт КПП",
         "time": "5",
-        "url": "/gaz4216_remont_kpp_1"
+        "url": "/gaz4216/remont_kpp_1"
       },
       {
         "name": "Замена подшипника первичного вала",
         "time": "5",
-        "url": "/gaz4216_zamena_podshipnika_pervichnogo_vala"
+        "url": "/gaz4216/zamena_podshipnika_pervichnogo_vala"
       },
       {
         "name": "Амортизатор Газель - замена",
         "time": "0,45",
-        "url": "/gaz4216_amortizator_gazel_zamena"
+        "url": "/gaz4216/amortizator_gazel_zamena"
       },
       {
         "name": "Амортизатор передний, задний",
         "time": "0,45",
-        "url": "/gaz4216_amortizator_perednij_zadnij"
+        "url": "/gaz4216/amortizator_perednij_zadnij"
       },
       {
         "name": "Балка передняя Газель - замена",
         "time": "6,5",
-        "url": "/gaz4216_balka_perednyaya_gazel_zamena"
+        "url": "/gaz4216/balka_perednyaya_gazel_zamena"
       },
       {
         "name": "Втулки амортизатора - замена",
         "time": "0,2",
-        "url": "/gaz4216_vtulki_amortizatora_zamena"
+        "url": "/gaz4216/vtulki_amortizatora_zamena"
       },
       {
         "name": "Подрессорник - замена",
         "time": "1,2",
-        "url": "/gaz4216_podressornik_zamena"
+        "url": "/gaz4216/podressornik_zamena"
       },
       {
         "name": "Подшипники передней ступицы - замена",
         "time": "1,2",
-        "url": "/gaz4216_podshipniki_perednej_stupicy_zamena"
+        "url": "/gaz4216/podshipniki_perednej_stupicy_zamena"
       },
       {
         "name": "Рессора задняя  замена в сборе",
         "time": "2",
-        "url": "/gaz4216_ressora_zadnyaya_zamena_v_sbore"
+        "url": "/gaz4216/ressora_zadnyaya_zamena_v_sbore"
       },
       {
         "name": "Рессора передняя - замена",
         "time": "1,3",
-        "url": "/gaz4216_ressora_perednyaya_zamena"
+        "url": "/gaz4216/ressora_perednyaya_zamena"
       },
       {
         "name": "Сайлентблок рессоры запрессовка",
         "time": "0,55",
-        "url": "/gaz4216_sajlentblok_ressory_zapressovka"
+        "url": "/gaz4216/sajlentblok_ressory_zapressovka"
       },
       {
         "name": "Серьга рессоры Газель - замена",
         "time": "0,45",
-        "url": "/gaz4216_serga_ressory_gazel_sobol_zamena"
+        "url": "/gaz4216/serga_ressory_gazel_sobol_zamena"
       },
       {
         "name": "Стабилизатор задний Газель - замена",
         "time": "1,2",
-        "url": "/gaz4216_stabilizator_zadnij_gazel_sobol_zamena"
+        "url": "/gaz4216/stabilizator_zadnij_gazel_sobol_zamena"
       },
       {
         "name": "Ходовая часть - протяжка",
         "time": "1",
-        "url": "/gaz4216_hodovaya_chast_protyazhka"
+        "url": "/gaz4216/hodovaya_chast_protyazhka"
       },
       {
         "name": "Шпилька колесная задняя - замена (на снятой ступице)",
         "time": "0,4",
-        "url": "/gaz4216_shpilka_kolesnaya_zadnyaya_zamena_na_snyatoj_stupice"
+        "url": "/gaz4216/shpilka_kolesnaya_zadnyaya_zamena_na_snyatoj_stupice"
       },
       {
         "name": "Шпилька колесная передняя - замена",
         "time": "0,3",
-        "url": "/gaz4216_shpilka_kolesnaya_perednyaya_zamena"
+        "url": "/gaz4216/shpilka_kolesnaya_perednyaya_zamena"
       },
       {
         "name": "Шприцевание Газель ",
         "time": "0,45",
-        "url": "/gaz4216_shpricevanie_gazel"
+        "url": "/gaz4216/shpricevanie_gazel"
       },
       {
         "name": "Замена заднего ступичного подшипника",
         "time": "1,5",
-        "url": "/gaz4216_zamena_zadnego_stupichnogo_podshipnika"
+        "url": "/gaz4216/zamena_zadnego_stupichnogo_podshipnika"
       },
       {
         "name": "Замена сальника задней ступицы",
         "time": "1,3",
-        "url": "/gaz4216_zamena_salnika_zadnej_stupicy"
+        "url": "/gaz4216/zamena_salnika_zadnej_stupicy"
       },
       {
         "name": "Колонка рулевая Газель - замена",
         "time": "1",
-        "url": "/gaz4216_kolonka_rulevaya_gazel_zamena"
+        "url": "/gaz4216/kolonka_rulevaya_gazel_zamena"
       },
       {
         "name": "Кронштейна насоса ГУР - замена",
         "time": "1,3",
-        "url": "/gaz4216_kronshtejna_nasosa_gur_zamena"
+        "url": "/gaz4216/kronshtejna_nasosa_gur_zamena"
       },
       {
         "name": "Насос ГУР - замена",
         "time": "1,5",
-        "url": "/gaz4216_nasos_gur_zamena"
+        "url": "/gaz4216/nasos_gur_zamena"
       },
       {
         "name": "Палец рулевой тяги, наконечник (1шт, на снятой) - замена",
         "time": "0,35",
-        "url": "/gaz4216_palec_rulevoj_tyagi_nakonechnik_1sht_na_snyatoj_zamena"
+        "url": "/gaz4216/palec_rulevoj_tyagi_nakonechnik_1sht_na_snyatoj_zamena"
       },
       {
         "name": "Радиатор охлаждения масла ГУР - замена",
         "time": "1,35",
-        "url": "/gaz4216_radiator_ohlazhdeniya_masla_gur_zamena"
+        "url": "/gaz4216/radiator_ohlazhdeniya_masla_gur_zamena"
       },
       {
         "name": "Редуктор рулевой (с ГУР) - замена",
         "time": "2",
-        "url": "/gaz4216_reduktor_rulevoj_gazel_sobol_s_gur_zamena"
+        "url": "/gaz4216/reduktor_rulevoj_gazel_sobol_s_gur_zamena"
       },
       {
         "name": "Схождение колес Газель (с диагностикой передней подвески) - регулировка",
         "time": "1,1",
-        "url": "/gaz4216_shozhdenie_koles_gazel_s_diagnostikoj_perednej_podveski_regulirovka"
+        "url": "/gaz4216/shozhdenie_koles_gazel_s_diagnostikoj_perednej_podveski_regulirovka"
       },
       {
         "name": "Тяга рулевая продольная - замена, снятие/установка",
         "time": "0,56",
-        "url": "/gaz4216_tyaga_rulevaya_prodolnaya_zamena_snyatie_ustanovka"
+        "url": "/gaz4216/tyaga_rulevaya_prodolnaya_zamena_snyatie_ustanovka"
       },
       {
         "name": "Тяга рулевая поперечная - замена, снятие/установка",
         "time": "1,08",
-        "url": "/gaz4216_tyaga_rulevaya_poperechnaya_zamena_snyatie_ustanovka"
+        "url": "/gaz4216/tyaga_rulevaya_poperechnaya_zamena_snyatie_ustanovka"
       },
       {
         "name": "Шкворни Газель - замена",
         "time": "5",
-        "url": "/gaz4216_shkvorni_gazel_zamena"
+        "url": "/gaz4216/shkvorni_gazel_zamena"
       },
       {
         "name": "Шкворни Газель 4х4 - замена",
         "time": "6,5",
-        "url": "/gaz4216_shkvorni_gazel_4h4_zamena"
+        "url": "/gaz4216/shkvorni_gazel_4h4_zamena"
       },
       {
         "name": "Шланг ГУР высокого давления (при слитом масле) - замена",
         "time": "0,4",
-        "url": "/gaz4216_shlang_gur_vysokogo_davleniya_pri_slitom_masle_zamena"
+        "url": "/gaz4216/shlang_gur_vysokogo_davleniya_pri_slitom_masle_zamena"
       },
       {
         "name": "Замена рулевого кардана",
         "time": "1",
-        "url": "/gaz4216_zamena_rulevogo_kardana"
+        "url": "/gaz4216/zamena_rulevogo_kardana"
       },
       {
         "name": "Замена гидроусилителя руля",
         "time": "1,8",
-        "url": "/gaz4216_zamena_gidrousilitelya_rulya"
+        "url": "/gaz4216/zamena_gidrousilitelya_rulya"
       },
       {
         "name": "Замена жидкости ГУР(с промывкой)",
         "time": "0,8",
-        "url": "/gaz4216_zamena_zhidkosti_gur_s_promyvkoj"
+        "url": "/gaz4216/zamena_zhidkosti_gur_s_promyvkoj"
       },
       {
         "name": "Бачок расширительный - замена",
         "time": "0,26",
-        "url": "/gaz4216_bachok_rasshiritelnyj_zamena"
+        "url": "/gaz4216/bachok_rasshiritelnyj_zamena"
       },
       {
         "name": "Жидкость охлаждающая - замена, слить/залить",
         "time": "0,55",
-        "url": "/gaz4216_zhidkost_ohlazhdayushchaya_zamena_slit_zalit"
+        "url": "/gaz4216/zhidkost_ohlazhdayushchaya_zamena_slit_zalit"
       },
       {
         "name": "Насос водяной - замена",
         "time": "2,5",
-        "url": "/gaz4216_nasos_vodyanoj_4216_zamena"
+        "url": "/gaz4216/nasos_vodyanoj_4216_zamena"
       },
       {
         "name": "Патрубок системы охлаждения, отопления при слитой охлаждающей жидкости - замена",
         "time": "0,2",
-        "url": "/gaz4216_patrubok_sistemy_ohlazhdeniya_otopleniya_pri_slitoj_ohlazhdayushchej_zhidkosti_zamena"
+        "url": "/gaz4216/patrubok_sistemy_ohlazhdeniya_otopleniya_pri_slitoj_ohlazhdayushchej_zhidkosti_zamena"
       },
       {
         "name": "Радиатор охлаждения - замена",
         "time": "1,6",
-        "url": "/gaz4216_radiator_ohlazhdeniya_zamena"
+        "url": "/gaz4216/radiator_ohlazhdeniya_zamena"
       },
       {
         "name": "Термостат - замена (при слитой охлаждающей жидкости)",
         "time": "0,3",
-        "url": "/gaz4216_termostat_zamena_pri_slitoj_ohlazhdayushchej_zhidkosti"
+        "url": "/gaz4216/termostat_zamena_pri_slitoj_ohlazhdayushchej_zhidkosti"
       },
       {
         "name": "Электромагнитная муфта 421 Евро-3 и Бизнес - замена",
         "time": "2,5",
-        "url": "/gaz4216_elektromagnitnaya_mufta_421_evro_3_i_biznes_zamena"
+        "url": "/gaz4216/elektromagnitnaya_mufta_421_evro_3_i_biznes_zamena"
       },
       {
         "name": "Блок управления отопителем салона Бизнес - замена",
         "time": "1,1",
-        "url": "/gaz4216_blok_upravleniya_otopitelem_salona_biznes_zamena"
+        "url": "/gaz4216/blok_upravleniya_otopitelem_salona_biznes_zamena"
       },
       {
         "name": "Блок управления отопителем салона н/о - замена",
         "time": "4,5",
-        "url": "/gaz4216_blok_upravleniya_otopitelem_salona_n_o_zamena"
+        "url": "/gaz4216/blok_upravleniya_otopitelem_salona_n_o_zamena"
       },
       {
         "name": "Кран отопителя в салоне н/о - замена",
         "time": "1",
-        "url": "/gaz4216_kran_otopitelya_v_salone_n_o_zamena"
+        "url": "/gaz4216/kran_otopitelya_v_salone_n_o_zamena"
       },
       {
         "name": "Кран отопителя под капотом с/о (при слитой ОЖ) - замена",
         "time": "0,45",
-        "url": "/gaz4216_kran_otopitelya_pod_kapotom_s_o_pri_slitoj_ozh_zamena"
+        "url": "/gaz4216/kran_otopitelya_pod_kapotom_s_o_pri_slitoj_ozh_zamena"
       },
       {
         "name": "Радиатор отопителя салона Газель-Бизнес - замена",
         "time": "2",
-        "url": "/gaz4216_radiator_otopitelya_salona_gazel_biznes_sobol_biznes_zamena"
+        "url": "/gaz4216/radiator_otopitelya_salona_gazel_biznes_sobol_biznes_zamena"
       },
       {
         "name": "Радиатор отопителя салона Газель дополнительный - замена",
         "time": "0,9",
-        "url": "/gaz4216_radiator_otopitelya_salona_gazel_dopolnitelnyj_zamena"
+        "url": "/gaz4216/radiator_otopitelya_salona_gazel_dopolnitelnyj_zamena"
       },
       {
         "name": "Радиатор отопителя салона Газель с/о - замена",
         "time": "2",
-        "url": "/gaz4216_radiator_otopitelya_salona_gazel_s_o_zamena"
+        "url": "/gaz4216/radiator_otopitelya_salona_gazel_s_o_zamena"
       },
       {
         "name": "Троса управления заслонок отопителя салона - замена",
         "time": "8",
-        "url": "/gaz4216_trosa_upravleniya_zaslonok_otopitelya_salona_zamena"
+        "url": "/gaz4216/trosa_upravleniya_zaslonok_otopitelya_salona_zamena"
       },
       {
         "name": "Электронасос дополнительный системы охлаждения (при слитой ОЖ) - замена",
         "time": "0,3",
-        "url": "/gaz4216_elektronasos_dopolnitelnyj_sistemy_ohlazhdeniya_gazel_pri_slitoj_ozh_zamena"
+        "url": "/gaz4216/elektronasos_dopolnitelnyj_sistemy_ohlazhdeniya_gazel_pri_slitoj_ozh_zamena"
       },
       {
         "name": "Электродвигатель отопителя салона Газель, кузов Бизнес - замена",
         "time": "8",
-        "url": "/gaz4216_elektrodvigatel_otopitelya_salona_gazel_kuzov_biznes_zamena"
+        "url": "/gaz4216/elektrodvigatel_otopitelya_salona_gazel_kuzov_biznes_zamena"
       },
       {
         "name": "Барабан тормозной Газель - замена, снятие/установка",
         "time": "0,6",
-        "url": "/gaz4216_baraban_tormoznoj_gazel_zamena_snyatie_ustanovka"
+        "url": "/gaz4216/baraban_tormoznoj_gazel_zamena_snyatie_ustanovka"
       },
       {
         "name": "Диск тормозной Газель - замена",
         "time": "1,5",
-        "url": "/gaz4216_disk_tormoznoj_gazel_zamena"
+        "url": "/gaz4216/disk_tormoznoj_gazel_zamena"
       },
       {
         "name": "Жидкость тормозная - замена",
         "time": "0,8",
-        "url": "/gaz4216_zhidkost_tormoznaya_zamena"
+        "url": "/gaz4216/zhidkost_tormoznaya_zamena"
       },
       {
         "name": "Колодки тормозные задние - замена",
         "time": "2",
-        "url": "/gaz4216_kolodki_tormoznye_zadnie_zamena"
+        "url": "/gaz4216/kolodki_tormoznye_zadnie_zamena"
       },
       {
         "name": "Колодки тормозные передние - замена",
         "time": "0,8",
-        "url": "/gaz4216_kolodki_tormoznye_perednie_zamena"
+        "url": "/gaz4216/kolodki_tormoznye_perednie_zamena"
       },
       {
         "name": "Направляющая суппорта при снятых колодках - профилактика",
         "time": "0,35",
-        "url": "/gaz4216_napravlyayushchaya_supporta_pri_snyatyh_kolodkah_profilaktika"
+        "url": "/gaz4216/napravlyayushchaya_supporta_pri_snyatyh_kolodkah_profilaktika"
       },
       {
         "name": "Рычаг стояночного тормоза - ремонт",
         "time": "0,5",
-        "url": "/gaz4216_rychag_stoyanochnogo_tormoza_remont"
+        "url": "/gaz4216/rychag_stoyanochnogo_tormoza_remont"
       },
       {
         "name": "Рычаг стояночного тормоза (со снятием/установкой) - ремонт",
         "time": "1,5",
-        "url": "/gaz4216_rychag_stoyanochnogo_tormoza_so_snyatiem_ustanovkoj_remont"
+        "url": "/gaz4216/rychag_stoyanochnogo_tormoza_so_snyatiem_ustanovkoj_remont"
       },
       {
         "name": "Суппорт - замена",
         "time": "0,9",
-        "url": "/gaz4216_support_zamena"
+        "url": "/gaz4216/support_zamena"
       },
       {
         "name": "Усилитель вакуумный Газель - замена",
         "time": "1,3",
-        "url": "/gaz4216_usilitel_vakuumnyj_gazel_zamena"
+        "url": "/gaz4216/usilitel_vakuumnyj_gazel_zamena"
       },
       {
         "name": "Цилиндр тормозной задний - замена (при снятых тормоpзных колодок)",
         "time": "0,45",
-        "url": "/gaz4216_cilindr_tormoznoj_zadnij_zamena_pri_snyatyh_tormopznyh_kolodok"
+        "url": "/gaz4216/cilindr_tormoznoj_zadnij_zamena_pri_snyatyh_tormopznyh_kolodok"
       },
       {
         "name": "Шланг тормозной - замена",
         "time": "0,35",
-        "url": "/gaz4216_shlang_tormoznoj_zamena"
+        "url": "/gaz4216/shlang_tormoznoj_zamena"
       },
       {
         "name": "Замена главного цилиндра",
         "time": "1,35",
-        "url": "/gaz4216_zamena_glavnogo_cilindra"
+        "url": "/gaz4216/zamena_glavnogo_cilindra"
       },
       {
         "name": "АКБ - замена АКБ",
         "time": "0,2",
-        "url": "/gaz4216_akb_zamena_akb"
+        "url": "/gaz4216/akb_zamena_akb"
       },
       {
         "name": "АКБ - зарядка, проверка уровня, плотности, тест",
         "time": "0,5",
-        "url": "/gaz4216_akb_zaryadka_proverka_urovnya_plotnosti_test"
+        "url": "/gaz4216/akb_zaryadka_proverka_urovnya_plotnosti_test"
       },
       {
         "name": "Замена панели приборов",
         "time": "1",
-        "url": "/gaz4216_zamena_paneli_priborov"
+        "url": "/gaz4216/zamena_paneli_priborov"
       },
       {
         "name": "Блок предохранителей (под капотом) - замена",
         "time": "0,5",
-        "url": "/gaz4216_blok_predohranitelej_pod_kapotom_zamena"
+        "url": "/gaz4216/blok_predohranitelej_pod_kapotom_zamena"
       },
       {
         "name": "Генератор - замена",
         "time": "1,5",
-        "url": "/gaz4216_generator_zamena"
+        "url": "/gaz4216/generator_zamena"
       },
       {
         "name": "Жгут задний - ремонт 1-й сложности",
         "time": "1",
-        "url": "/gaz4216_zhgut_zadnij_remont_1_j_slozhnosti"
+        "url": "/gaz4216/zhgut_zadnij_remont_1_j_slozhnosti"
       },
       {
         "name": "Жгут задний - ремонт 2-й сложности",
         "time": "2",
-        "url": "/gaz4216_zhgut_zadnij_remont_2_j_slozhnosti"
+        "url": "/gaz4216/zhgut_zadnij_remont_2_j_slozhnosti"
       },
       {
         "name": "Жгут задний - ремонт 3-й сложности",
         "time": "3",
-        "url": "/gaz4216_zhgut_zadnij_remont_3_j_slozhnosti"
+        "url": "/gaz4216/zhgut_zadnij_remont_3_j_slozhnosti"
       },
       {
         "name": "Замок зажигания Газель - замена",
         "time": "0,9",
-        "url": "/gaz4216_zamok_zazhiganiya_gazel_zamena"
+        "url": "/gaz4216/zamok_zazhiganiya_gazel_zamena"
       },
       {
         "name": "Комбинация приборов н/о - замена",
         "time": "0,65",
-        "url": "/gaz4216_kombinaciya_priborov_n_o_zamena"
+        "url": "/gaz4216/kombinaciya_priborov_n_o_zamena"
       },
       {
         "name": "Лампочка фары (за 1) кузов н/о - замена",
         "time": "0,2",
-        "url": "/gaz4216_lampochka_fary_za_1_kuzov_n_o_zamena"
+        "url": "/gaz4216/lampochka_fary_za_1_kuzov_n_o_zamena"
       },
       {
         "name": "Лампы в комбинации приборов Газель - замена",
         "time": "0,95",
-        "url": "/gaz4216_lampy_v_kombinacii_priborov_gazel_zamena"
+        "url": "/gaz4216/lampy_v_kombinacii_priborov_gazel_zamena"
       },
       {
         "name": "Переключатель отопителя салона с/о - замена",
         "time": "0,7",
-        "url": "/gaz4216_pereklyuchatel_otopitelya_salona_s_o_zamena"
+        "url": "/gaz4216/pereklyuchatel_otopitelya_salona_s_o_zamena"
       },
       {
         "name": "Переключатель подрулевой - замена",
         "time": "0,75",
-        "url": "/gaz4216_pereklyuchatel_podrulevoj_zamena"
+        "url": "/gaz4216/pereklyuchatel_podrulevoj_zamena"
       },
       {
         "name": "Переключатель центральный света кузов н/о - замена",
         "time": "0,35",
-        "url": "/gaz4216_pereklyuchatel_centralnyj_sveta_kuzov_n_o_zamena"
+        "url": "/gaz4216/pereklyuchatel_centralnyj_sveta_kuzov_n_o_zamena"
       },
       {
         "name": "Прикуриватель - замена",
         "time": "0,65",
-        "url": "/gaz4216_prikurivatel_zamena"
+        "url": "/gaz4216/prikurivatel_zamena"
       },
       {
         "name": "Сигнал звуковой - замена/установка",
         "time": "0,3",
-        "url": "/gaz4216_signal_zvukovoj_zamena_ustanovka"
+        "url": "/gaz4216/signal_zvukovoj_zamena_ustanovka"
       },
       {
         "name": "Стартер - замена",
         "time": "1,5",
-        "url": "/gaz4216_starter_zamena"
+        "url": "/gaz4216/starter_zamena"
       },
       {
         "name": "Фонарь задний Газель (в сборе) - замена",
         "time": "0,7",
-        "url": "/gaz4216_fonar_zadnij_gazel_sobol_v_sbore_zamena"
+        "url": "/gaz4216/fonar_zadnij_gazel_sobol_v_sbore_zamena"
       },
       {
         "name": "Жгут (без разборки колеса) - установка",
         "time": "0,2",
-        "url": "/gaz4216_zhgut_bez_razborki_kolesa_ustanovka"
+        "url": "/gaz4216/zhgut_bez_razborki_kolesa_ustanovka"
       },
       {
         "name": "Камера или вентиль - замена/установка",
         "time": "0,08",
-        "url": "/gaz4216_kamera_ili_ventil_zamena_ustanovka"
+        "url": "/gaz4216/kamera_ili_ventil_zamena_ustanovka"
       },
       {
         "name": "Колесо - балансировка",
         "time": "0,2",
-        "url": "/gaz4216_koleso_balansirovka"
+        "url": "/gaz4216/koleso_balansirovka"
       },
       {
         "name": "Колесо - проверка давления, подкачка",
         "time": "0,03",
-        "url": "/gaz4216_koleso_proverka_davleniya_podkachka"
+        "url": "/gaz4216/koleso_proverka_davleniya_podkachka"
       },
       {
         "name": "Колесо - разборка",
         "time": "0,1",
-        "url": "/gaz4216_koleso_razborka"
+        "url": "/gaz4216/koleso_razborka"
       },
       {
         "name": "Колесо - сборка",
         "time": "0,1",
-        "url": "/gaz4216_koleso_sborka"
+        "url": "/gaz4216/koleso_sborka"
       },
       {
         "name": "Колесо - снятие/установка",
         "time": "0,15",
-        "url": "/gaz4216_koleso_snyatie_ustanovka"
+        "url": "/gaz4216/koleso_snyatie_ustanovka"
       },
       {
         "name": "Колесо - чистка, подготовка к шиномонтажу",
         "time": "0,06",
-        "url": "/gaz4216_koleso_chistka_podgotovka_k_shinomontazhu"
+        "url": "/gaz4216/koleso_chistka_podgotovka_k_shinomontazhu"
       },
       {
         "name": "Шиномонтаж 6-ти колес Газель",
         "time": "2,8",
-        "url": "/gaz4216_shinomontazh_6_ti_koles_gazel"
+        "url": "/gaz4216/shinomontazh_6_ti_koles_gazel"
       },
       {
         "name": "Замена прокладки выпускного коллектора",
         "time": "2",
-        "url": "/gaz4216_zamena_prokladki_vypusknogo_kollektora"
+        "url": "/gaz4216/zamena_prokladki_vypusknogo_kollektora"
       },
       {
         "name": "Замена прокладки клапанной крышки",
         "time": "0,7",
-        "url": "/gaz4216_zamena_prokladki_klapannoj_kryshki"
+        "url": "/gaz4216/zamena_prokladki_klapannoj_kryshki"
       },
       {
         "name": "Замена прокладки поддона",
         "time": "3,1",
-        "url": "/gaz4216_zamena_prokladki_poddona"
+        "url": "/gaz4216/zamena_prokladki_poddona"
       },
       {
         "name": "Замена лобового стекла",
         "time": "3",
-        "url": "/gaz4216_zamena_lobovogo_stekla"
+        "url": "/gaz4216/zamena_lobovogo_stekla"
       },
       {
         "name": "Замена бокового стекла",
         "time": "0,9",
-        "url": "/gaz4216_zamena_bokovogo_stekla"
+        "url": "/gaz4216/zamena_bokovogo_stekla"
       },
       {
         "name": "Замена масляного фильтра",
         "time": "0,3",
-        "url": "/gaz4216_zamena_maslyanogo_filtra"
+        "url": "/gaz4216/zamena_maslyanogo_filtra"
       },
       {
         "name": "Замена топливного фильтра",
         "time": "0,6",
-        "url": "/gaz4216_zamena_toplivnogo_filtra"
+        "url": "/gaz4216/zamena_toplivnogo_filtra"
       },
       {
         "name": "Замена воздушного фильтра",
         "time": "0,3",
-        "url": "/gaz4216_zamena_vozdushnogo_filtra"
+        "url": "/gaz4216/zamena_vozdushnogo_filtra"
       },
       {
         "name": "Замена салонного фильтра",
         "time": "0,3",
-        "url": "/gaz4216_zamena_salonnogo_filtra"
+        "url": "/gaz4216/zamena_salonnogo_filtra"
       },
       {
         "name": "Замена газового фильтра",
         "time": "0,3",
-        "url": "/gaz4216_zamena_gazovogo_filtra"
+        "url": "/gaz4216/zamena_gazovogo_filtra"
       },
       {
         "name": "Замена заднего сальника коленвала (при снятом маховике)",
         "time": "0,5",
-        "url": "/gaz4216_zamena_zadnego_salnika_kolenvala_pri_snyatom_mahovike"
+        "url": "/gaz4216/zamena_zadnego_salnika_kolenvala_pri_snyatom_mahovike"
       },
       {
         "name": "Замена переднего сальника коленвала",
         "time": "3,5",
-        "url": "/gaz4216_zamena_perednego_salnika_kolenvala_1"
+        "url": "/gaz4216/zamena_perednego_salnika_kolenvala_1"
       },
       {
         "name": "Замена сальника задней ступицы",
         "time": "1,14",
-        "url": "/gaz4216_zamena_salnika_zadnej_stupicy_1"
+        "url": "/gaz4216/zamena_salnika_zadnej_stupicy_1"
       },
       {
         "name": "Замена сальника передней ступицы",
         "time": "1",
-        "url": "/gaz4216_zamena_salnika_perednej_stupicy"
+        "url": "/gaz4216/zamena_salnika_perednej_stupicy"
       },
       {
         "name": "Замена заднего сальника двигателя",
         "time": "5,5",
-        "url": "/gaz4216_zamena_zadnego_salnika_dvigatelya"
+        "url": "/gaz4216/zamena_zadnego_salnika_dvigatelya"
       },
       {
         "name": "Замена сальника редуктора",
         "time": "1,1",
-        "url": "/gaz4216_zamena_salnika_reduktora"
+        "url": "/gaz4216/zamena_salnika_reduktora"
       },
       {
         "name": "Замена сальника хвостовика",
         "time": "1,1",
-        "url": "/gaz4216_zamena_salnika_hvostovika"
+        "url": "/gaz4216/zamena_salnika_hvostovika"
       },
       {
         "name": "Замена масла в гуре",
         "time": "0,8",
-        "url": "/gaz4216_zamena_masla_v_gure"
+        "url": "/gaz4216/zamena_masla_v_gure"
       },
       {
         "name": "Замена масла в заднем мосту",
         "time": "0,35",
-        "url": "/gaz4216_zamena_masla_v_zadnem_mostu"
+        "url": "/gaz4216/zamena_masla_v_zadnem_mostu"
       },
       {
         "name": "Замена масла в редукторе",
         "time": "0,35",
-        "url": "/gaz4216_zamena_masla_v_reduktore"
+        "url": "/gaz4216/zamena_masla_v_reduktore"
       },
       {
         "name": "Замена масла в КПП (Коробке)",
         "time": "0,35",
-        "url": "/gaz4216_zamena_masla_v_kpp_korobke"
+        "url": "/gaz4216/zamena_masla_v_kpp_korobke"
       },
       {
         "name": "Замена масла в двигателе",
         "time": "0,6",
-        "url": "/gaz4216_zamena_masla_v_dvigatele_1"
+        "url": "/gaz4216/zamena_masla_v_dvigatele_1"
       },
       {
         "name": "Замена датчика давления масла",
         "time": "0,9",
-        "url": "/gaz4216_zamena_datchika_davleniya_masla"
+        "url": "/gaz4216/zamena_datchika_davleniya_masla"
       },
       {
         "name": "Замена топливного бака",
         "time": "2",
-        "url": "/gaz4216_zamena_toplivnogo_baka"
+        "url": "/gaz4216/zamena_toplivnogo_baka"
       },
       {
         "name": "Замена бензонасоса (при снятом баке)",
         "time": "0,55",
-        "url": "/gaz4216_zamena_benzonasosa_pri_snyatom_bake"
+        "url": "/gaz4216/zamena_benzonasosa_pri_snyatom_bake"
       },
       {
         "name": "Замена топливного насоса",
         "time": "0,55",
-        "url": "/gaz4216_zamena_toplivnogo_nasosa"
+        "url": "/gaz4216/zamena_toplivnogo_nasosa"
       },
       {
         "name": "Замена топливного фильтра",
         "time": "0,6",
-        "url": "/gaz4216_zamena_toplivnogo_filtra_1"
+        "url": "/gaz4216/zamena_toplivnogo_filtra_1"
       },
       {
         "name": "Замена глушителя",
         "time": "1",
-        "url": "/gaz4216_zamena_glushitelya"
+        "url": "/gaz4216/zamena_glushitelya"
       }
 ]

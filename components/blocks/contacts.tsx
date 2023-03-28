@@ -6,26 +6,26 @@ export const Contacts = ({ data, parentField = "" }) => {
     return (
       <Section color={data.color} data-tinafield={`${parentField}.body`}>
         {!data ||
-            <div className="my-24 mx-24">
+            <div className="my-12 md:mx-24">
                 {!data.header ||
                     <div className="flex justify-center mb-6">
-                        <p className='my-4 font-bold text-3xl'>{data.header}</p>
+                        <p className='my-4 font-bold text-2xl text-center md:text-3xl'>{data.header}</p>
                     </div> 
                 }
                 <div className="flex flex-wrap justify-center">
-                    <div className="mx-6 flex flex-wrap justify-center items-center">
+                    <div className="mx-2 flex flex-wrap justify-center items-center md:mx-6">
                         {data ? data.contact.map((item) => {
                             return (
-                                <div className="m-4 p-8 flex flex-col justify-center items-center bg-white shadow-md">
+                                <div className="m-2 my-4 p-4 flex flex-col justify-center items-center bg-white shadow-md md:m-4 md:p-8">
                                     <i className="pi pi-map-marker text-orange-500" style={{ fontSize: '2rem', margin: "0.25rem" }}></i>
-                                    <p className="my-2 font-bold text-2xl">{item.header}</p>     
-                                    <p className="text-gray-300">{item.time}</p>
-                                    {!item.address || <a className="my-2 text-orange-500 font-bold underline" href={item.addressLink}>{item.address}</a>}
+                                    <p className="my-2 font-bold text-xl text-center md:text-2xl">{item.header}</p>     
+                                    <p className="text-gray-300 text-center">{item.time}</p>
+                                    {!item.address || <a className="my-2 text-orange-500 font-bold underline text-center" href={item.addressLink}>{item.address}</a>}
                                     <div className="my-2 flex flex-col items-center">
-                                        {!item.phones || <p className="font-bold">Телефоны:</p>}
+                                        {!item.phones || <p className="font-bold text-center">Телефоны:</p>}
                                         {item.phones ? item.phones.map((p) => {
                                             return (
-                                                <a className="text-orange-500 text-bold underline font-bold" href={p.phone}>{p.phone}</a>
+                                                <a className="text-orange-500 text-bold underline font-bold text-center" href={p.phone}>{p.phone}</a>
                                             );
                                         }):[]}
                                     </div>
@@ -41,35 +41,42 @@ export const Contacts = ({ data, parentField = "" }) => {
                             );
                         }):[]}
                     </div>
+
+                    <div className="mt-8 w-full">
+                        <p className='my-4 font-bold text-xl text-center'>Наши адреса на карте</p>
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A51e2d3726f76306261113bfa2f8320f8aa612f468135cd1c8457ae3dd41b0d74&amp;source=constructor" width="100%" height="600" frameborder="0"></iframe>
+                    </div>
+                    
+
                     <div>
                         <div className="mt-8">
-                            <p className='my-4 font-bold text-xl'>Мы в социальных сетях</p>
-                            <div className="">
-                                <div className="my-4">
-                                    <a href="#" className="flex items-center font-bold text-blue-600">
+                            <p className='my-4 font-bold text-xl text-center'>Мы в социальных сетях</p>
+                            <div className="flex flex-col items-center">
+                                <div className="my-2">
+                                    <a href="#" className="flex items-center font-bold text-blue-600 transition hover:opacity-60">
                                         <img src="/arm_vk.svg" alt="" />
                                         <span className="ml-2">Вконтакте</span>
                                     </a>
 
                                 </div>
-                                <div className="my-4">
-                                    <a href="#" className="flex items-center font-bold text-pink-600">
+                                <div className="my-2">
+                                    <a href="#" className="flex items-center font-bold text-pink-600 transition hover:opacity-60">
                                         <img src="/arm_instagram.svg" alt="" />
                                         <span className="ml-2">Instagram</span>
                                     </a>
                                 </div>
-                                <div className="my-4">
-                                    <a href="#" className="flex items-center font-bold text-green-600">
+                                <div className="my-2">
+                                    <a href="#" className="flex items-center font-bold text-green-600 transition hover:opacity-60">
                                         <img src="/arm_whatsapp.svg" alt="" />
                                         <span className="ml-2">WhatsApp</span>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <div className="my-4">
-                            <p className='my-4 font-bold text-xl'>Цены на наши услуги</p>
-                            <a href="/prices">
-                                <Button label="Прайс-листы" style={{background: "#ea6c45", border: 0, width: "300px"}}></Button>
+                        <div className="my-4 flex flex-col items-center">
+                            <p className='my-4 font-bold text-xl text-center'>Цены на наши услуги</p>
+                            <a className="hover:opacity-80 transition" href="/prices">
+                                <Button label="Прайс-листы" style={{background: "#ea6c45", border: 0, width: "200px", fontWeight: "bold"}}></Button>
                             </a>
                         </div>   
                     </div>

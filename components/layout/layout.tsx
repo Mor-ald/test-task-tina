@@ -4,6 +4,8 @@ import { Header } from "./header";
 import { Footer } from "./footer";
 import layoutData from "../../content/global/index.json";
 import { Theme } from "./theme";
+import { ScrollTop } from 'primereact/scrolltop';
+         
 
 export const Layout = ({ rawData = {}, data = layoutData, children }) => {
   return (
@@ -49,6 +51,7 @@ export const Layout = ({ rawData = {}, data = layoutData, children }) => {
             data={data?.footer}
             icon={data?.header.icon}
           />
+          <ScrollTop target="window" threshold={200} icon="pi pi-arrow-up text-base"/>
         </div>
       </Theme>
     </>

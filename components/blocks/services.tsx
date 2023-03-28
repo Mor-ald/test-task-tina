@@ -1,12 +1,14 @@
 import { Button } from 'primereact/button';
 import { Section } from "../util/section";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
-import { Container } from "../util/container";
 import type { TinaTemplate } from "tinacms";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+import { Dialog } from 'primereact/dialog';
+import ServForm from '../servForm/ServForm';
 
-export const Services = ({ data, parentField = "" }) => {
+export const Services = ({ data }) => {
+    const [displayForm, setDisplayForm] = useState(false);
 
     const serviceItemTemplate = (content) => {
         return (
@@ -20,7 +22,7 @@ export const Services = ({ data, parentField = "" }) => {
                                 <TinaMarkdown content={content.serviceText} />
                             </div>
                         </div>
-                        <Button label="Консультация" icon="pi pi-calculator" style={{width: "180px", background: "#dc4419", margin: "1.5rem auto", border: 0, borderRadius: 0, display: "flex", justifyContent: "center", outline: "none"}}/>
+                        <Button label="Консультация" icon="pi pi-calculator" style={{width: "180px", background: "#dc4419", margin: "1.5rem auto", border: 0, borderRadius: 0, display: "flex", justifyContent: "center", outline: "none"}} onClick={() => setDisplayForm(true)}/>
                     </div>
                 </div>
             </div>
@@ -29,11 +31,17 @@ export const Services = ({ data, parentField = "" }) => {
 
     return (
       <Section className='mb-16' color={data.color}>
+        <Dialog visible={displayForm} onHide={() => setDisplayForm(false)}>
+          <p className='font-bold text-2xl text-center'>Консультация</p>
+          <div className='w-64 sm:px-0 md:w-80 md:px-4 lg:w-96' >
+            <ServForm visibleModel={true} ></ServForm>
+          </div>
+        </Dialog>
         <div className="w-2/3 my-12 mx-auto flex justify-center items-center flex-wrap">
             {data.service && data.service.map((service) => { return serviceItemTemplate(service) })}
         </div>
         
-            <Link href={`/posts`} passHref>
+            <Link href={`/service`} passHref>
                 <div className='p-4 w-40 transition delay-250 flex justify-center mx-auto cursor-pointer bg-white border-gray-900 border font-bold text-gray-900 hover:bg-gray-900 hover:text-white'>
                     Все услуги
                 </div>

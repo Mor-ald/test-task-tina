@@ -2,436 +2,436 @@
     {
         "name": "С/у двс",
         "time": "10",
-        "url": "/s-u-dvs-lada"
+        "url": "/lada/dvs"
       },
       {
         "name": "Прокладка ГБЦ – замена (ГБЦ - снять/поставить)",
         "time": "8",
-        "url": "/prokladka_gbc_zamena_gbc_snyat_postavit_lada"
+        "url": "/lada/prokladka_gbc_zamena_gbc_snyat_postavit"
       },
       {
         "name": "Замена свечей",
         "time": "0,65",
-        "url": "/zamena_svechej_lada"
+        "url": "/lada/zamena_svechej"
       },
       {
         "name": "Насос масляный - замена(при снятом поддоне)",
         "time": "0,8",
-        "url": "/nasos_maslyanyj_zamena_pri_snyatom_poddone_lada"
+        "url": "/lada/nasos_maslyanyj_zamena_pri_snyatom_poddone"
       },
       {
         "name": "Прокладка поддона - замена(при снятом подрамнике)",
         "time": "2,5",
-        "url": "/prokladka_poddona_zamena_pri_snyatom_podramnike_lada"
+        "url": "/lada/prokladka_poddona_zamena_pri_snyatom_podramnike"
       },
       {
         "name": "Прокладка передней крышки 8кл замена",
         "time": "3,5",
-        "url": "/prokladka_perednej_kryshki_8kl_zamena_lada"
+        "url": "/lada/prokladka_perednej_kryshki_8kl_zamena"
       },
       {
         "name": "Прокладка клапанной крышки 16кл замена",
         "time": "3,8",
-        "url": "/prokladka_klapannoj_kryshki_16kl_zamena_lada"
+        "url": "/lada/prokladka_klapannoj_kryshki_16kl_zamena"
       },
       {
         "name": "Замена распредвала 8кл",
         "time": "5",
-        "url": "/zamena_raspredvala_8kl_lada"
+        "url": "/lada/zamena_raspredvala_8kl"
       },
       {
         "name": "Замена распредвала 16кл",
         "time": "6,5",
-        "url": "/zamena_raspredvala_16kl_lada"
+        "url": "/lada/zamena_raspredvala_16kl"
       },
       {
         "name": "Протяжка ГБЦ (с регулировкой клапанов 8кл)",
         "time": "2",
-        "url": "/protyazhka_gbc_s_regulirovkoj_klapanov_8kl_lada"
+        "url": "/lada/protyazhka_gbc_s_regulirovkoj_klapanov_8kl"
       },
       {
         "name": "Сальник распредвала - замена",
         "time": "3,8",
-        "url": "/salnik_raspredvala_zamena_lada"
+        "url": "/lada/salnik_raspredvala_zamena"
       },
       {
         "name": "Сальник коленвала (задний) - замена",
         "time": "4,5",
-        "url": "/salnik_kolenvala_zadnij_zamena_lada"
+        "url": "/lada/salnik_kolenvala_zadnij_zamena"
       },
       {
         "name": "Замена ремня ГРМ 8кл",
         "time": "3,5",
-        "url": "/zamena_remnya_grm_8kl_lada"
+        "url": "/lada/zamena_remnya_grm_8kl"
       },
       {
         "name": "Замена ремня ГРМ 16кл",
         "time": "4,5",
-        "url": "/zamena_remnya_grm_16kl_lada"
+        "url": "/lada/zamena_remnya_grm_16kl"
       },
       {
         "name": "Замена рулевой тяги",
         "time": "0,7",
-        "url": "/zamena_rulevoj_tyagi_lada"
+        "url": "/lada/zamena_rulevoj_tyagi"
       },
       {
         "name": "Замена наконечника",
         "time": "0,5",
-        "url": "/zamena_nakonechnika_lada"
+        "url": "/lada/zamena_nakonechnika"
       },
       {
         "name": "Амортизатор передний - замена",
         "time": "1,5",
-        "url": "/amortizator_perednij_zamena_lada"
+        "url": "/lada/amortizator_perednij_zamena"
       },
       {
         "name": "Замена шаровой опоры(со снятием рычага)",
         "time": "1,2",
-        "url": "/zamena_sharovoj_opory_so_snyatiem_rychaga_lada"
+        "url": "/lada/zamena_sharovoj_opory_so_snyatiem_rychaga"
       },
       {
         "name": "Защита картера ДВС-снять/поставить",
         "time": "0,25",
-        "url": "/zashchita_kartera_dvs_snyat_postavit_lada"
+        "url": "/lada/zashchita_kartera_dvs_snyat_postavit"
       },
       {
         "name": "Замена рулевой рейки(модели с гур)",
         "time": "5",
-        "url": "/zamena_rulevoj_rejki_modeli_s_gur_lada"
+        "url": "/lada/zamena_rulevoj_rejki_modeli_s_gur"
       },
       {
         "name": "Замена рулевой рейки(модели без гур)",
         "time": "3,9",
-        "url": "/zamena_rulevoj_rejki_modeli_bez_gur_lada"
+        "url": "/lada/zamena_rulevoj_rejki_modeli_bez_gur"
       },
       {
         "name": "Замен рычага подвески нижний",
         "time": "1",
-        "url": "/zamen_rychaga_podveski_nizhnij_lada"
+        "url": "/lada/zamen_rychaga_podveski_nizhnij"
       },
       {
         "name": "Подшипник передней ступицы (со снятием поворотного кулака) - замена",
         "time": "1,5",
-        "url": "/podshipnik_perednej_stupicy_so_snyatiem_povorotnogo_kulaka_zamena_lada"
+        "url": "/lada/podshipnik_perednej_stupicy_so_snyatiem_povorotnogo_kulaka_zamena"
       },
       {
         "name": "Замена заднего ступичного подшипника",
         "time": "0,9",
-        "url": "/zamena_zadnego_stupichnogo_podshipnika_lada"
+        "url": "/lada/zamena_zadnego_stupichnogo_podshipnika"
       },
       {
         "name": "Диск тормозной – замена(1шт.)",
         "time": "0,8",
-        "url": "/disk_tormoznoj_zamena_1sht_lada"
+        "url": "/lada/disk_tormoznoj_zamena_1sht"
       },
       {
         "name": "Балка передняя (подрамник) - замена",
         "time": "4",
-        "url": "/balka_perednyaya_podramnik_zamena_lada"
+        "url": "/lada/balka_perednyaya_podramnik_zamena"
       },
       {
         "name": "Сайленблоки нижнего рычага (при снятом рычаге)",
         "time": "1",
-        "url": "/sajlenbloki_nizhnego_rychaga_pri_snyatom_rychage_lada"
+        "url": "/lada/sajlenbloki_nizhnego_rychaga_pri_snyatom_rychage"
       },
       {
         "name": "Втулка стабилизатора (1шт.) - замена",
         "time": "0,35",
-        "url": "/vtulka_stabilizatora_1sht_zamena_lada"
+        "url": "/lada/vtulka_stabilizatora_1sht_zamena"
       },
       {
         "name": "Стойка стабилизатора - замена",
         "time": "0,3",
-        "url": "/stojka_stabilizatora_zamena_lada"
+        "url": "/lada/stojka_stabilizatora_zamena"
       },
       {
         "name": "Рычаг нижний (в сборе) - замена",
         "time": "1",
-        "url": "/rychag_nizhnij_v_sbore_zamena_lada"
+        "url": "/lada/rychag_nizhnij_v_sbore_zamena"
       },
       {
         "name": "Замена опоры кпп нижняя",
         "time": "0,5",
-        "url": "/zamena_opory_kpp_nizhnyaya_lada"
+        "url": "/lada/zamena_opory_kpp_nizhnyaya"
       },
       {
         "name": "Замена привода в сборе",
         "time": "1,8",
-        "url": "/zamena_privoda_v_sbore_lada"
+        "url": "/lada/zamena_privoda_v_sbore"
       },
       {
         "name": "Замена наружного ШРУС пыльника(при снятом приводе)",
         "time": "0,45",
-        "url": "/zamena_naruzhnogo_shrus_pylnika_pri_snyatom_privode_lada"
+        "url": "/lada/zamena_naruzhnogo_shrus_pylnika_pri_snyatom_privode"
       },
       {
         "name": "Замена внутреннего ШРУС пыльника(при снятом приводе)",
         "time": "0,45",
-        "url": "/zamena_vnutrennego_shrus_pylnika_pri_snyatom_privode_lada"
+        "url": "/lada/zamena_vnutrennego_shrus_pylnika_pri_snyatom_privode"
       },
       {
         "name": "Замена 2х пыльников или ШРУС(переборка привода)",
         "time": "1",
-        "url": "/zamena_2h_pylnikov_ili_shrus_pereborka_privoda_lada"
+        "url": "/lada/zamena_2h_pylnikov_ili_shrus_pereborka_privoda"
       },
       {
         "name": "Амортизатор задний (1 шт) - замена",
         "time": "1",
-        "url": "/amortizator_zadnij_1_sht_zamena_lada"
+        "url": "/lada/amortizator_zadnij_1_sht_zamena"
       },
       {
         "name": "Балка заднего моста (в сборе) - замена",
         "time": "5",
-        "url": "/balka_zadnego_mosta_v_sbore_zamena_lada"
+        "url": "/lada/balka_zadnego_mosta_v_sbore_zamena"
       },
       {
         "name": "Реактивная тяга /2 втулки - замена",
         "time": "0,35",
-        "url": "/reaktivnaya_tyaga_2_vtulki_zamena_lada"
+        "url": "/lada/reaktivnaya_tyaga_2_vtulki_zamena"
       },
       {
         "name": "Пружина задняя (1шт.) - замена",
         "time": "0,6",
-        "url": "/pruzhina_zadnyaya_1sht_zamena_lada"
+        "url": "/lada/pruzhina_zadnyaya_1sht_zamena"
       },
       {
         "name": "Стойка стабилизатора(1шт.) - замена",
         "time": "0,35",
-        "url": "/stojka_stabilizatora_1sht_zamena_lada"
+        "url": "/lada/stojka_stabilizatora_1sht_zamena"
       },
       {
         "name": "Сцепление (комплект) - замена",
         "time": "4,7",
-        "url": "/sceplenie_komplekt_zamena_lada"
+        "url": "/lada/sceplenie_komplekt_zamena"
       },
       {
         "name": "Трос привода сцепления - замена",
         "time": "1",
-        "url": "/tros_privoda_scepleniya_zamena_lada"
+        "url": "/lada/tros_privoda_scepleniya_zamena"
       },
       {
         "name": "Замена рабочего цилиндра сцепления",
         "time": "0,8",
-        "url": "/zamena_rabochego_cilindra_scepleniya_lada"
+        "url": "/lada/zamena_rabochego_cilindra_scepleniya"
       },
       {
         "name": "Сальник привода КПП(при снятом приводе)",
         "time": "0,4",
-        "url": "/salnik_privoda_kpp_pri_snyatom_privode_lada"
+        "url": "/lada/salnik_privoda_kpp_pri_snyatom_privode"
       },
       {
         "name": "Сальник штока выбора передач КПП - замена",
         "time": "1",
-        "url": "/salnik_shtoka_vybora_peredach_kpp_zamena_lada"
+        "url": "/lada/salnik_shtoka_vybora_peredach_kpp_zamena"
       },
       {
         "name": "Сальник КПП передний (на снятой КПП) - замена",
         "time": "0,35",
-        "url": "/salnik_kpp_perednij_na_snyatoj_kpp_zamena_lada"
+        "url": "/lada/salnik_kpp_perednij_na_snyatoj_kpp_zamena"
       },
       {
         "name": "Маховик (при снятом сцеплении) - замена",
         "time": "0,45",
-        "url": "/mahovik_pri_snyatom_sceplenii_zamena_lada"
+        "url": "/lada/mahovik_pri_snyatom_sceplenii_zamena"
       },
       {
         "name": "Подушка КПП – замена",
         "time": "0,5",
-        "url": "/podushka_kpp_zamena_lada"
+        "url": "/lada/podushka_kpp_zamena"
       },
       {
         "name": "Шланг сцепления - замена",
         "time": "0,2",
-        "url": "/shlang_scepleniya_zamena_lada"
+        "url": "/lada/shlang_scepleniya_zamena"
       },
       {
         "name": "Кулиса - замена",
         "time": "1,5",
-        "url": "/kulisa_zamena_lada"
+        "url": "/lada/kulisa_zamena"
       },
       {
         "name": "Передние тормозные колодки – замена",
         "time": "0,8",
-        "url": "/perednie_tormoznye_kolodki_zamena_lada"
+        "url": "/lada/perednie_tormoznye_kolodki_zamena"
       },
       {
         "name": "Задние колодки (дисковые тормоза) - замена",
         "time": "0,8",
-        "url": "/zadnie_kolodki_diskovye_tormoza_zamena_lada"
+        "url": "/lada/zadnie_kolodki_diskovye_tormoza_zamena"
       },
       {
         "name": "Задние колодки (барабанные тормоза) - замена",
         "time": "1,3",
-        "url": "/zadnie_kolodki_barabannye_tormoza_zamena_lada"
+        "url": "/lada/zadnie_kolodki_barabannye_tormoza_zamena"
       },
       {
         "name": "Суппорт передний (1шт.) - замена",
         "time": "0,5",
-        "url": "/support_perednij_1sht_zamena_lada"
+        "url": "/lada/support_perednij_1sht_zamena"
       },
       {
         "name": "Главный тормозной цилиндр - замена",
         "time": "1,5",
-        "url": "/glavnyj_tormoznoj_cilindr_zamena_lada"
+        "url": "/lada/glavnyj_tormoznoj_cilindr_zamena"
       },
       {
         "name": "Вакуумный усилитель тормозной системы - замена",
         "time": "4,5",
-        "url": "/vakuumnyj_usilitel_tormoznoj_sistemy_zamena_lada"
+        "url": "/lada/vakuumnyj_usilitel_tormoznoj_sistemy_zamena"
       },
       {
         "name": "Трубка тормозная - передняя (1шт.) - замена",
         "time": "0,6",
-        "url": "/trubka_tormoznaya_perednyaya_1sht_zamena_lada"
+        "url": "/lada/trubka_tormoznaya_perednyaya_1sht_zamena"
       },
       {
         "name": "Магистральная трубка – замена(1шт.)",
         "time": "1,1",
-        "url": "/magistralnaya_trubka_zamena_1sht_lada"
+        "url": "/lada/magistralnaya_trubka_zamena_1sht"
       },
       {
         "name": "Регулятор тормозного усилия – замена",
         "time": "0,76",
-        "url": "/regulyator_tormoznogo_usiliya_zamena_lada"
+        "url": "/lada/regulyator_tormoznogo_usiliya_zamena"
       },
       {
         "name": "Трос ручного тормоза зад 2шт - замена",
         "time": "2,5",
-        "url": "/tros_ruchnogo_tormoza_zad_2sht_zamena_lada"
+        "url": "/lada/tros_ruchnogo_tormoza_zad_2sht_zamena"
       },
       {
         "name": "Трубка тормозная задняя (1шт.) - замена",
         "time": "0,7",
-        "url": "/trubka_tormoznaya_zadnyaya_1sht_zamena_lada"
+        "url": "/lada/trubka_tormoznaya_zadnyaya_1sht_zamena"
       },
       {
         "name": "Рабочий цилиндр задний - замена",
         "time": "0,8",
-        "url": "/rabochij_cilindr_zadnij_zamena_lada"
+        "url": "/lada/rabochij_cilindr_zadnij_zamena"
       },
       {
         "name": "Прокачка тормозной системы",
         "time": "0,7",
-        "url": "/prokachka_tormoznoj_sistemy_lada"
+        "url": "/lada/prokachka_tormoznoj_sistemy"
       },
       {
         "name": "Тормозная жидкость - замена",
         "time": "1",
-        "url": "/tormoznaya_zhidkost_zamena_lada"
+        "url": "/lada/tormoznaya_zhidkost_zamena"
       },
       {
         "name": "Диагностика инжектора(ЭБУ)",
         "time": "0,5",
-        "url": "/diagnostika_inzhektora_ebu_lada"
+        "url": "/lada/diagnostika_inzhektora_ebu"
       },
       {
         "name": "Бензонасос (карбюратор) - замена",
         "time": "1,2",
-        "url": "/benzonasos_karbyurator_zamena_lada"
+        "url": "/lada/benzonasos_karbyurator_zamena"
       },
       {
         "name": "Бензобак – замена (снять/поставить)",
         "time": "2,3",
-        "url": "/benzobak_zamena_snyat_postavit_lada"
+        "url": "/lada/benzobak_zamena_snyat_postavit"
       },
       {
         "name": "Датчик включения вентилятора - замена",
         "time": "0,4",
-        "url": "/datchik_vklyucheniya_ventilyatora_zamena_lada"
+        "url": "/lada/datchik_vklyucheniya_ventilyatora_zamena"
       },
       {
         "name": "Датчик давления масла - замена",
         "time": "0,3",
-        "url": "/datchik_davleniya_masla_zamena_lada"
+        "url": "/lada/datchik_davleniya_masla_zamena"
       },
       {
         "name": "Датчик заднего хода – замена",
         "time": "0,8",
-        "url": "/datchik_zadnego_hoda_zamena_lada"
+        "url": "/lada/datchik_zadnego_hoda_zamena"
       },
       {
         "name": "Датчик массового расхода воздуха - замена",
         "time": "0,2",
-        "url": "/datchik_massovogo_rashoda_vozduha_zamena_lada"
+        "url": "/lada/datchik_massovogo_rashoda_vozduha_zamena"
       },
       {
         "name": "Датчик распредвала - замена",
         "time": "0,3",
-        "url": "/datchik_raspredvala_zamena_lada"
+        "url": "/lada/datchik_raspredvala_zamena"
       },
       {
         "name": "Датчик скорости – замена",
         "time": "0,9",
-        "url": "/datchik_skorosti_zamena_lada"
+        "url": "/lada/datchik_skorosti_zamena"
       },
       {
         "name": "Датчик температуры охлаждающей жидкости - замена",
         "time": "0,4",
-        "url": "/datchik_temperatury_ohlazhdayushchej_zhidkosti_zamena_lada"
+        "url": "/lada/datchik_temperatury_ohlazhdayushchej_zhidkosti_zamena"
       },
       {
         "name": "Катушка зажигания (модуль) (1 шт.) - замена",
         "time": "0,45",
-        "url": "/katushka_zazhiganiya_modul_1_sht_zamena_lada"
+        "url": "/lada/katushka_zazhiganiya_modul_1_sht_zamena"
       },
       {
         "name": "Прокладка приемной трубы - замена",
         "time": "1",
-        "url": "/prokladka_priemnoj_truby_zamena_lada"
+        "url": "/lada/prokladka_priemnoj_truby_zamena"
       },
       {
         "name": "Приемная труба - замена",
         "time": "1,5",
-        "url": "/priemnaya_truba_zamena_lada"
+        "url": "/lada/priemnaya_truba_zamena"
       },
       {
         "name": "Катализатор - удаление",
         "time": "4,5",
-        "url": "/katalizator_udalenie_lada"
+        "url": "/lada/katalizator_udalenie"
       },
       {
         "name": "L-зонд (кислородный датчик) - замена",
         "time": "0,8",
-        "url": "/l_zond_kislorodnyj_datchik_zamena_lada"
+        "url": "/lada/l_zond_kislorodnyj_datchik_zamena"
       },
       {
         "name": "Прокладка выпускного коллектора",
         "time": "3",
-        "url": "/prokladka_vypusknogo_kollektora_lada"
+        "url": "/lada/prokladka_vypusknogo_kollektora"
       },
       {
         "name": "Радиатор отопителя - замена",
         "time": "3,2",
-        "url": "/radiator_otopitelya_zamena_lada"
+        "url": "/lada/radiator_otopitelya_zamena"
       },
       {
         "name": "Жидкость охлаждения – замена",
         "time": "1",
-        "url": "/zhidkost_ohlazhdeniya_zamena_lada"
+        "url": "/lada/zhidkost_ohlazhdeniya_zamena"
       },
       {
         "name": "Радиатор охлаждения (основной) - замена",
         "time": "2,5",
-        "url": "/radiator_ohlazhdeniya_osnovnoj_zamena_lada"
+        "url": "/lada/radiator_ohlazhdeniya_osnovnoj_zamena"
       },
       {
         "name": "Бачок расширительный - замена",
         "time": "0,5",
-        "url": "/bachok_rasshiritelnyj_zamena_lada"
+        "url": "/lada/bachok_rasshiritelnyj_zamena"
       },
       {
         "name": "Термостат - замена",
         "time": "1,5",
-        "url": "/termostat_zamena_lada"
+        "url": "/lada/termostat_zamena"
       },
       {
         "name": "Патрубки системы охлаждения (1шт.) - замена",
         "time": "0,35",
-        "url": "/patrubki_sistemy_ohlazhdeniya_1sht_zamena_lada"
+        "url": "/lada/patrubki_sistemy_ohlazhdeniya_1sht_zamena"
       },
       {
         "name": "Водяной насос (помпа) - замена",
         "time": "5",
-        "url": "/vodyanoj_nasos_pompa_zamena_lada"
+        "url": "/lada/vodyanoj_nasos_pompa_zamena"
       }
 ]

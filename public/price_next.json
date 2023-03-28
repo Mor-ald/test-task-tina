@@ -2,266 +2,266 @@
     {
         "name": "Ремонт выхлопной системы",
         "time": "1",
-        "url": "/gazonnekst_remont_vyhlopnoj_sistemy"
+        "url": "/next/remont_vyhlopnoj_sistemy"
       },
       {
         "name": "Замена сажевого фильтра",
         "time": "2,2",
-        "url": "/gazonnekst_zamena_sazhevogo_filtra"
+        "url": "/next/zamena_sazhevogo_filtra"
       },
       {
         "name": "Удаление сажевого фильтра",
         "time": "2,2",
-        "url": "/gazonnekst_udalenie_sazhevogo_filtra"
+        "url": "/next/udalenie_sazhevogo_filtra"
       },
       {
         "name": "Удаление клапанна ЕГР",
         "time": "1",
-        "url": "/gazonnekst_udalenie_klapanna_egr"
+        "url": "/next/udalenie_klapanna_egr"
       },
       {
         "name": "С/У двигателя",
         "time": "24",
-        "url": "/gazonnekst_s_u_dvigatelya"
+        "url": "/next/s_u_dvigatelya"
       },
       {
         "name": "Разборка, дефектация двигателя, сборка",
         "time": "12",
-        "url": "/gazonnekst_razborka_defektaciya_dvigatelya_sborka"
+        "url": "/next/razborka_defektaciya_dvigatelya_sborka"
       },
       {
         "name": "Сборка двигателя",
         "time": "18",
-        "url": "/gazonnekst_sborka_dvigatelya"
+        "url": "/next/sborka_dvigatelya"
       },
       {
         "name": "Замена уплотнителей гильз в составе а/м",
         "time": "33,73",
-        "url": "/gazonnekst_zamena_uplotnitelej_gilz_v_sostave_a_m"
+        "url": "/next/zamena_uplotnitelej_gilz_v_sostave_a_m"
       },
       {
         "name": "Редуктор заднего моста или прокладка редуктора с/у",
         "time": "4,83",
-        "url": "/gazonnekst_reduktor_zadnego_mosta_ili_prokladka_reduktora_s_u"
+        "url": "/next/reduktor_zadnego_mosta_ili_prokladka_reduktora_s_u"
       },
       {
         "name": "Ступица заднего моста с/у",
         "time": "1,69",
-        "url": "/gazonnekst_stupica_zadnego_mosta_s_u"
+        "url": "/next/stupica_zadnego_mosta_s_u"
       },
       {
         "name": "Замена подшипников на снятой ступице",
         "time": "1",
-        "url": "/gazonnekst_zamena_podshipnikov_na_snyatoj_stupice"
+        "url": "/next/zamena_podshipnikov_na_snyatoj_stupice"
       },
       {
         "name": "Карданный вал снятие установка",
         "time": "1,07",
-        "url": "/gazonnekst_kardannyj_val_snyatie_ustanovka"
+        "url": "/next/kardannyj_val_snyatie_ustanovka"
       },
       {
         "name": "Опора промежуточная с/у (на снятом карданном вале)",
         "time": "1",
-        "url": "/gazonnekst_opora_promezhutochnaya_s_u_na_snyatom_kardannom_vale"
+        "url": "/next/opora_promezhutochnaya_s_u_na_snyatom_kardannom_vale"
       },
       {
         "name": "Крестовина кард. Вала замена (на снятом карданном вале)",
         "time": "1,17",
-        "url": "/gazonnekst_krestovina_kard_vala_zamena_na_snyatom_kardannom_vale"
+        "url": "/next/krestovina_kard_vala_zamena_na_snyatom_kardannom_vale"
       },
       {
         "name": "Снятие и установка КПП",
         "time": "5,33",
-        "url": "/gazonnekst_snyatie_i_ustanovka_kpp"
+        "url": "/next/snyatie_i_ustanovka_kpp"
       },
       {
         "name": "Ремонт коробки передач",
         "time": "6,6",
-        "url": "/gazonnekst_remont_korobki_peredach"
+        "url": "/next/remont_korobki_peredach"
       },
       {
         "name": "Ремонт кузова",
         "time": "2,4",
-        "url": "/gazonnekst_remont_kuzova"
+        "url": "/next/remont_kuzova"
       },
       {
         "name": "Лобовое стекло, замена",
         "time": "2,4",
-        "url": "/gazonnekst_lobovoe_steklo_zamena"
+        "url": "/next/lobovoe_steklo_zamena"
       },
       {
         "name": "Ремонт передка кузова",
         "time": "2,4",
-        "url": "/gazonnekst_remont_peredka_kuzova"
+        "url": "/next/remont_peredka_kuzova"
       },
       {
         "name": "Снятие и установка поворотного кулака 1 шт",
         "time": "2,33",
-        "url": "/gazonnekst_snyatie_i_ustanovka_povorotnogo_kulaka_1_sht"
+        "url": "/next/snyatie_i_ustanovka_povorotnogo_kulaka_1_sht"
       },
       {
         "name": "Замена втулок на снятом поворотном кулаке",
         "time": "1",
-        "url": "/gazonnekst_zamena_vtulok_na_snyatom_povorotnom_kulake"
+        "url": "/next/zamena_vtulok_na_snyatom_povorotnom_kulake"
       },
       {
         "name": "Снятие и установка ступицы переднего колеса",
         "time": "1,33",
-        "url": "/gazonnekst_snyatie_i_ustanovka_stupicy_perednego_kolesa"
+        "url": "/next/snyatie_i_ustanovka_stupicy_perednego_kolesa"
       },
       {
         "name": "Датчик скорости снятие и установка",
         "time": "0,5",
-        "url": "/gazonnekst_datchik_skorosti_snyatie_i_ustanovka"
+        "url": "/next/datchik_skorosti_snyatie_i_ustanovka"
       },
       {
         "name": "Комбинация приборов, замена",
         "time": "0,88",
-        "url": "/gazonnekst_kombinaciya_priborov_zamena"
+        "url": "/next/kombinaciya_priborov_zamena"
       },
       {
         "name": "Датчик температуры и давления масла",
         "time": "0,33",
-        "url": "/gazonnekst_datchik_temperatury_i_davleniya_masla"
+        "url": "/next/datchik_temperatury_i_davleniya_masla"
       },
       {
         "name": "Датчик температуры",
         "time": "0,33",
-        "url": "/gazonnekst_datchik_temperatury"
+        "url": "/next/datchik_temperatury"
       },
       {
         "name": "Датчик указателя уровня топлива замена",
         "time": "0,33",
-        "url": "/gazonnekst_datchik_ukazatelya_urovnya_topliva_zamena"
+        "url": "/next/datchik_ukazatelya_urovnya_topliva_zamena"
       },
       {
         "name": "Раздаточная коробка ремонт с полной разборкой и сборкой",
         "time": "6",
-        "url": "/gazonnekst_razdatochnaya_korobka_remont_s_polnoj_razborkoj_i_sborkoj"
+        "url": "/next/razdatochnaya_korobka_remont_s_polnoj_razborkoj_i_sborkoj"
       },
       {
         "name": "Манжета фланца раздаточной коробки, замена",
         "time": "0,87",
-        "url": "/gazonnekst_manzheta_flanca_razdatochnoj_korobki_zamena"
+        "url": "/next/manzheta_flanca_razdatochnoj_korobki_zamena"
       },
       {
         "name": "Рулевое колесо, замена",
         "time": "0,8",
-        "url": "/gazonnekst_rulevoe_koleso_zamena"
+        "url": "/next/rulevoe_koleso_zamena"
       },
       {
         "name": "Замена рулевого механизма",
         "time": "3",
-        "url": "/gazonnekst_zamena_rulevogo_mehanizma"
+        "url": "/next/zamena_rulevogo_mehanizma"
       },
       {
         "name": "Вал рулевой, замена",
         "time": "1,47",
-        "url": "/gazonnekst_val_rulevoj_zamena"
+        "url": "/next/val_rulevoj_zamena"
       },
       {
         "name": "Поперечная рулевая тяга, замена",
         "time": "1,33",
-        "url": "/gazonnekst_poperechnaya_rulevaya_tyaga_zamena"
+        "url": "/next/poperechnaya_rulevaya_tyaga_zamena"
       },
       {
         "name": "Продольная рулевая тяга, замена",
         "time": "1,47",
-        "url": "/gazonnekst_prodolnaya_rulevaya_tyaga_zamena"
+        "url": "/next/prodolnaya_rulevaya_tyaga_zamena"
       },
       {
         "name": "Шарнир рулевой тяги 1 шт. замена (на снятой тяге)",
         "time": "0,67",
-        "url": "/gazonnekst_sharnir_rulevoj_tyagi_1_sht_zamena_na_snyatoj_tyage"
+        "url": "/next/sharnir_rulevoj_tyagi_1_sht_zamena_na_snyatoj_tyage"
       },
       {
         "name": "Радиатор системы охлаждения, замена",
         "time": "3,67",
-        "url": "/gazonnekst_radiator_sistemy_ohlazhdeniya_zamena"
+        "url": "/next/radiator_sistemy_ohlazhdeniya_zamena"
       },
       {
         "name": "Охлаждающая жидкость, замена",
         "time": "0,8",
-        "url": "/gazonnekst_ohlazhdayushchaya_zhidkost_zamena"
+        "url": "/next/ohlazhdayushchaya_zhidkost_zamena"
       },
       {
         "name": "Водяной насос, замена",
         "time": "5,13",
-        "url": "/gazonnekst_vodyanoj_nasos_zamena"
+        "url": "/next/vodyanoj_nasos_zamena"
       },
       {
         "name": "Термостат, замена (при слитой охлаждающей жидкости)",
         "time": "0,8",
-        "url": "/gazonnekst_termostat_zamena_pri_slitoj_ohlazhdayushchej_zhidkosti"
+        "url": "/next/termostat_zamena_pri_slitoj_ohlazhdayushchej_zhidkosti"
       },
       {
         "name": "Форсунка топливная дизель, замена",
         "time": "2,93",
-        "url": "/gazonnekst_forsunka_toplivnaya_dizel_zamena"
+        "url": "/next/forsunka_toplivnaya_dizel_zamena"
       },
       {
         "name": "Рампа топливных форсунок замена",
         "time": "1",
-        "url": "/gazonnekst_rampa_toplivnyh_forsunok_zamena"
+        "url": "/next/rampa_toplivnyh_forsunok_zamena"
       },
       {
         "name": "Фильтр топливный, замена",
         "time": "0,44",
-        "url": "/gazonnekst_filtr_toplivnyj_zamena"
+        "url": "/next/filtr_toplivnyj_zamena"
       },
       {
         "name": "Ремонт сцепления Замена комплекта сцепления",
         "time": "6,6",
-        "url": "/gazonnekst_remont_scepleniya_zamena_komplekta_scepleniya"
+        "url": "/next/remont_scepleniya_zamena_komplekta_scepleniya"
       },
       {
         "name": "Рабочий цилиндр привода сцепления, замена",
         "time": "2,2",
-        "url": "/gazonnekst_rabochij_cilindr_privoda_scepleniya_zamena"
+        "url": "/next/rabochij_cilindr_privoda_scepleniya_zamena"
       },
       {
         "name": "Главный цилиндр привода сцепления, замена",
         "time": "1,69",
-        "url": "/gazonnekst_glavnyj_cilindr_privoda_scepleniya_zamena"
+        "url": "/next/glavnyj_cilindr_privoda_scepleniya_zamena"
       },
       {
         "name": "Трубка сцепления замена",
         "time": "0,88",
-        "url": "/gazonnekst_trubka_scepleniya_zamena"
+        "url": "/next/trubka_scepleniya_zamena"
       },
       {
         "name": "Колодки передние тормозные, замена",
         "time": "1,5",
-        "url": "/gazonnekst_kolodki_perednie_tormoznye_zamena"
+        "url": "/next/kolodki_perednie_tormoznye_zamena"
       },
       {
         "name": "Колодки тормозные задние, замена",
         "time": "1,6",
-        "url": "/gazonnekst_kolodki_tormoznye_zadnie_zamena"
+        "url": "/next/kolodki_tormoznye_zadnie_zamena"
       },
       {
         "name": "Диск тормозной передний, замена",
         "time": "2",
-        "url": "/gazonnekst_disk_tormoznoj_perednij_zamena"
+        "url": "/next/disk_tormoznoj_perednij_zamena"
       },
       {
         "name": "Тормозная скоба переднего дискового тормоза, замена",
         "time": "2",
-        "url": "/gazonnekst_tormoznaya_skoba_perednego_diskovogo_tormoza_zamena"
+        "url": "/next/tormoznaya_skoba_perednego_diskovogo_tormoza_zamena"
       },
       {
         "name": "Тормозной шланг, замена",
         "time": "0,8",
-        "url": "/gazonnekst_tormoznoj_shlang_zamena"
+        "url": "/next/tormoznoj_shlang_zamena"
       },
       {
         "name": "Главный тормозной цилиндр, замена",
         "time": "3,67",
-        "url": "/gazonnekst_glavnyj_tormoznoj_cilindr_zamena"
+        "url": "/next/glavnyj_tormoznoj_cilindr_zamena"
       },
       {
         "name": "Ремонт электрооборудования",
         "time": "0,8",
-        "url": "/gazonnekst_remont_elektrooborudovaniya"
+        "url": "/next/remont_elektrooborudovaniya"
       }
 ]

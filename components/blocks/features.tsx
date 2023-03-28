@@ -1,6 +1,5 @@
 import { Actions } from "../util/actions";
 import { Section } from "../util/section";
-import { Container } from "../util/container";
 import { Icon } from "../util/icon";
 import { iconSchema } from "../util/icon";
 
@@ -9,7 +8,7 @@ export const Feature = ({ featuresColor, data, tinaField }) => {
     <div
       data-tinafield={tinaField}
       className="flex-1 flex flex-col gap-6 text-center items-center lg:items-start lg:text-left max-w-xl p-12 bg-white m-12 shadow-xl"
-      style={{ flexBasis: "16rem", minWidth: "320px", minHeight: "400px" }}
+      style={{ flexBasis: "16rem", minWidth: "320px", minHeight: "500px" }}
     >
       {data.icon && (
         <Icon

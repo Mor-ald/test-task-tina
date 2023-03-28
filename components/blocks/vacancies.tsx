@@ -12,14 +12,13 @@ export const Vacancies = ({ data, parentField = "" }) => {
 
     return (
       <Section color={data.color} data-tinafield={`${parentField}.body`}>
-            <div className="mt-24 mx-auto w-2/3">
+            <div className="mt-12 mx-auto w-full md:w-2/3">
                 <DataTable value={vac} showGridlines responsiveLayout="scroll" stripedRows >
                         <Column field="spec" header="Специальность"></Column>
-                        <Column field="salary" header="З/П"></Column>
-                        <Column field="schedule" header="График работы"></Column>
+                        <Column field="salary" header="З/П" style={{textAlign: "center"}}></Column>
+                        <Column field="schedule" header="График работы" style={{textAlign: "center"}}></Column>
                 </DataTable>
             </div>
-          
       </Section>
     );
 };

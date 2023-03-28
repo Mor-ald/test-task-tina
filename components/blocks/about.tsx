@@ -17,16 +17,16 @@ export const About = ({ data, parentField = "" }) => {
             width="large"
         >
             {!data.aboutItemFirst || 
-            <div className="my-12 flex justify-center items-center">
+            <div className="my-12 flex flex-col items-center md:justify-center md:flex-row">
                 <div className="mx-6">
                     <TinaMarkdown content={data.aboutItemFirst.text} />
                 </div>
-                <img className="w-1/3 h-1/2 mx-12 rounded-md shadow-xl" src={data.aboutItemFirst.image ? data.aboutItemFirst.image.src: ""} aria-hidden="true"/>
+                <img className="h-1/2 rounded-md shadow-xl md:mx-12 md:w-1/3 " src={data.aboutItemFirst.image ? data.aboutItemFirst.image.src: ""} aria-hidden="true"/>
             </div>
             }
             {!data.aboutItemSecond || 
-            <div className="my-12 flex justify-center items-center">
-                <img className="w-1/3 h-1/2 mx-12 rounded-md shadow-xl" src={data.aboutItemSecond.image ? data.aboutItemSecond.image.src:""} aria-hidden="true"/>
+            <div className="my-12 flex flex-col-reverse items-center md:justify-center md:flex-row">
+                <img className="h-1/2 rounded-md shadow-xl md:mx-12 md:w-1/3" src={data.aboutItemSecond.image ? data.aboutItemSecond.image.src:""} aria-hidden="true"/>
                 <div className="mx-6">
                     <TinaMarkdown content={data.aboutItemSecond.text} />
                 </div>
@@ -34,14 +34,14 @@ export const About = ({ data, parentField = "" }) => {
             }
             {!data.aboutSert || 
             <div className="my-6 flex flex-col justify-center items-center">
-                <p className='my-4 font-bold text-3xl'>{data.aboutSert.header}</p>
+                <p className='my-4 font-bold text-3xl text-center'>{data.aboutSert.header}</p>
                 <img src={data.aboutSert.image ? data.aboutSert.image.src: ""} aria-hidden="true"/>
             </div>
             }   
             {!data.link || 
-            <div className="mt-24 flex justify-center">
+            <div className="mt-4 flex justify-center md:mt-24">
                 <a className="no-underline" href={data.link} target="_blank">
-                    <Button label="Договор на оказание услуг" style={{background: "#ea6c45", border: 0}}/>
+                    <Button label="Договор на оказание услуг" style={{background: "#ea6c45", border: 0, fontWeight: "bold"}}/>
                 </a>
             </div>
             } 

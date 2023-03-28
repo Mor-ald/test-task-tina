@@ -9,7 +9,7 @@ export const PhotosGallery = ({ data, parentField = "" }) => {
 
     const [images, setImages] = useState(null);
     const [activeIndex, setActiveIndex] = useState(0);
-    const [showThumbnails, setShowThumbnails] = useState(true);
+    const [showThumbnails, setShowThumbnails] = useState(false);
     const [isAutoPlayActive, setAutoPlayActive] = useState(true);
     const galleria = useRef(null);
 
@@ -23,11 +23,11 @@ export const PhotosGallery = ({ data, parentField = "" }) => {
     const responsiveOptions = [
         {
             breakpoint: '1024px',
-            numVisible: 5
+            numVisible: 7
         },
         {
             breakpoint: '960px',
-            numVisible: 3
+            numVisible: 5
         },
         {
             breakpoint: '768px',
@@ -53,7 +53,7 @@ export const PhotosGallery = ({ data, parentField = "" }) => {
 
 
     const itemTemplate = (item) => {
-        return <img src={item.src} className="h-128 block"/>
+        return <img src={item.src} className="h-64 block md:h-128"/>
     }
 
     const thumbnailTemplate = (item) => {
@@ -73,7 +73,9 @@ export const PhotosGallery = ({ data, parentField = "" }) => {
         return (
             <div className="px-4 flex items-center justify-between" style={{backgroundColor: "rgba(0, 0, 0, .9)", color: "#fff"}}>
                 <div className='flex items-center'>
-                    <Button icon="pi pi-list" onClick={() => setShowThumbnails(prevState => !prevState)} style={{marginLeft: "4px", backgroundColor: "transparent", color: "#fff", border: "0 none", borderRadius: 0, margin: "0.2rem 0", outline: "none"}}/>
+                    <div className='hidden lg:block'>
+                        <Button icon="pi pi-list" onClick={() => setShowThumbnails(prevState => !prevState)} style={{marginLeft: "4px", backgroundColor: "transparent", color: "#fff", border: "0 none", borderRadius: 0, margin: "0.2rem 0", outline: "none"}}/>
+                    </div>
                     <Button icon={autoPlayClassName} style={{marginLeft: "4px", backgroundColor: "transparent", color: "#fff", border: "0 none", borderRadius: 0, margin: "0.2rem 0"}} onClick={() => {
                         if (!isAutoPlayActive) {
                             galleria.current.startSlideShow();
@@ -101,7 +103,7 @@ export const PhotosGallery = ({ data, parentField = "" }) => {
 
     return (
       <Section color={data.color}>
-        <div className='w-2/3 my-12 mb-24 mx-auto flex flex-col justify-center items-center'>
+        <div className='w-11/12 my-12 mb-24 mx-auto flex flex-col justify-center items-center md:w-2/3'>
             <p className='my-8 font-bold text-3xl'>Фотографии</p>
             <Galleria ref={galleria} value={images} activeIndex={activeIndex} onItemChange={onItemChange}
                         showThumbnails={showThumbnails} showItemNavigatorsOnHover

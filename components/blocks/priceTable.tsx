@@ -61,51 +61,51 @@ export const PriceTable = ({ data, parentField = "" }) => {
 
     const timeTemplate = (item) => {
         return (
-            <div className="flex justify-center">{item.data.time}</div>         
+            <div>{item.data.time}</div>         
         );
     };
 
     const coefTemplate = (item) => {
         return (
-            <div className="flex justify-center">{item.data.coef}</div>         
+            <div>{item.data.coef}</div>         
         );
     };
 
     const priceTemplate = (item) => {
         return (
-            <div className="flex justify-center">{Number(item.data.price).toFixed(0)}</div>         
+            <div>{Number(item.data.price).toFixed(0)}</div>         
         );
     };
 
     const discountTemplate = (item) => {
         return (
-            <div className="flex justify-center">{Number(item.data.discount).toFixed(0)}</div>         
+            <div>{Number(item.data.discount).toFixed(0)}</div>         
         );
     };
 
     return (
       <Section color={data.color} data-tinafield={`${parentField}.body`}>
-            <div className="my-12 mx-24 flex flex-col items-center">
+            <div className="flex mx-4 flex-col items-center md:mx-12 md:my-12">
                 {!data.header || 
                     <div>
-                        <p className='my-4 font-bold text-3xl'>{data.header}</p>
+                        <p className='my-4 font-bold text-2xl text-center'>{data.header}</p>
                         {data.typePrice === "price_paiting" &&
                             <div>
                                 <p className="my-2 font-bold text-center">*Цены указаны без учёта материалов.</p>
                                 <p className="my-2 font-bold text-center">**Стоимость ремонтных работ оговаривается индивидуально</p>
-                                <TreeTable value={values} stripedRows showGridlines>
-                                    <Column field="name" header={"Наименование"} body={nameTemplate} filter={true} filterPlaceholder="Поиск..." filterMatchMode="contains"></Column>
-                                    <Column field="price" header={"Стоимость работ"} body={priceTemplate}></Column>
+                                <TreeTable className="mx-auto w-80 sm:w-3/4 md:w-full" value={values} scrollable>
+                                    <Column className="w-2/3" field="name" header={"Наименование"} body={nameTemplate} filter={true} filterPlaceholder="Поиск..." filterMatchMode="contains"></Column>
+                                    <Column  className="w-1/3" field="price" header={"Стоимость работ"} body={priceTemplate}></Column>
                                 </TreeTable>
                             </div>        
                         }
                         {data.typePrice !== "price_paiting" &&
-                            <TreeTable value={values} stripedRows showGridlines>
-                                <Column field="name" header={"Наименование"} body={nameTemplate} filter={true} filterPlaceholder="Поиск..." filterMatchMode="contains"></Column>
-                                <Column field="time" header={"Время выполнения работы"} body={timeTemplate}></Column>
-                                <Column field="coef" header={"Стоимость н/ч"} body={coefTemplate}></Column>
-                                <Column field="price" header={"Стоимость работ"} body={priceTemplate}></Column>
-                                <Column field="discount" header={"Цена по скидочной карте"} body={discountTemplate}></Column>
+                            <TreeTable className="mx-auto w-80 sm:w-3/4 md:w-full" value={values} scrollable>
+                                <Column className="w-64 md:w-full" field="name" header={"Наименование"} body={nameTemplate} filter={true} filterPlaceholder="Поиск..." filterMatchMode="contains"></Column>
+                                <Column className="w-32 md:w-full"  field="time" header={"Время выполнения работы"} body={timeTemplate} style={{textAlign: "center"}}></Column>
+                                <Column className="w-32 md:w-full"  field="coef" header={"Стоимость н/ч"} body={coefTemplate} style={{textAlign: "center"}}></Column>
+                                <Column className="w-32 md:w-full"  field="price" header={"Стоимость работ"} body={priceTemplate} style={{textAlign: "center"}}></Column>
+                                <Column className="w-32 md:w-full "  field="discount" header={"Цена по скидочной карте"} body={discountTemplate} style={{textAlign: "center"}}></Column>
                             </TreeTable>
                         }
 

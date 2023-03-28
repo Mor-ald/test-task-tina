@@ -1,16 +1,16 @@
 import { Section } from "../util/section";
 import type { TinaTemplate } from "tinacms";
 
-export const FeaturesArm = ({ data, parentField }) => {
+export const FeaturesArm = ({data}) => {
 
     const featTemplate = (content) => {
         return (
-            <div className="flex my-6 mx-12" style={{minWidth: "360px"}}>
-                <div className="border-r-2 border-gray-400 pr-6 flex justify-center items-center">
+            <div className="flex justify-center my-6 mx-12 md:justify-start" style={{minWidth: "360px"}}>
+                <div className="border-r-2 border-gray-400 pr-3 flex justify-center items-center md:pr-6">
                     <img src={`${content.featImg}`} alt="" />
                 </div>
-                <div className="pl-6">
-                    <h3 className="font-bold text-white text-2xl">{content.featHeader}</h3>
+                <div className="pl-3 md:pr-3">
+                    <h3 className="font-bold text-white text-xl md:text-2xl">{content.featHeader}</h3>
                     <p className="text-gray-300">{content.featText}</p>
                 </div>
             </div>
@@ -19,9 +19,9 @@ export const FeaturesArm = ({ data, parentField }) => {
 
     return (
       <Section>
-        <div className="relative p-12 flex flex-col justify-center items-center bg-[url('/featureArm.jpg')]">
+        <div className="relative py-12 px-2 flex flex-col justify-center items-center bg-[url('/featureArm.jpg')] md:px-12">
             <div className="absolute w-2/2 h-2/2 bg-black left-0 top-0 opacity-90 z-0" style={{minWidth: "100%", minHeight: "100%"}}></div>
-            <div className="bg-white w-2/3 text-center py-2 z-10">
+            <div className="bg-white text-center p-4 z-10">
                 <h3 className='mb-2 font-bold text-3xl'>{data.header}</h3>
                 <p className="font-bold mb-2">{data.headerText}</p>
             </div>
