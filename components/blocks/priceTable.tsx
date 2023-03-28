@@ -1,6 +1,6 @@
 import { Section } from "../util/section";
 import type { TinaTemplate } from "tinacms";
-import { TreeTable } from 'primereact/treeTable';
+import { TreeTable } from 'primereact/treetable';
 import { Column } from 'primereact/column';
 import { useEffect, useState } from "react";
 import axios from "axios";
