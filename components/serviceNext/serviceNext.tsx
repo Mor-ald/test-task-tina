@@ -1,4 +1,5 @@
 import { Section } from "../util/section";
+import ServForm from "../servForm/ServForm";
 
 export const ServiceNext = (data) => {
     console.log(data.serviceNext.header)
@@ -27,6 +28,7 @@ export const ServiceNext = (data) => {
                                 звоните нам на удобную для вас <span className="font-bold text-orange-500">СТО</span>!
                             </p>
                         }
+                        <ServForm visibleModel={false} serv={data.serviceNext.header ? data.serviceNext.header:""} model={data.serviceNext.model}></ServForm>
                     </div>
       </Section>
     );

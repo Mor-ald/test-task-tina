@@ -46,10 +46,8 @@ export const Layout = ({ rawData = {}, data = layoutData, children }) => {
           <div className="flex-1 text-gray-800 bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-1000 flex flex-col">
             {children}
           </div>
-          <Footer
-            rawData={rawData}
+          <Footer       
             data={data?.footer}
-            icon={data?.header.icon}
           />
           <ScrollTop target="window" threshold={200} icon="pi pi-arrow-up text-base"/>
         </div>
