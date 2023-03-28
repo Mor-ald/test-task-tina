@@ -1,6 +1,5 @@
 import { Section } from "../util/section";
 import type { TinaTemplate } from "tinacms";
-import { Container } from "../util/container";
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 
