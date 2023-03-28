@@ -44,7 +44,7 @@ export const Contacts = ({ data, parentField = "" }) => {
 
                     <div className="mt-8 w-full">
                         <p className='my-4 font-bold text-xl text-center'>Наши адреса на карте</p>
-                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A51e2d3726f76306261113bfa2f8320f8aa612f468135cd1c8457ae3dd41b0d74&amp;source=constructor" width="100%" height="600" frameborder="0"></iframe>
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A51e2d3726f76306261113bfa2f8320f8aa612f468135cd1c8457ae3dd41b0d74&amp;source=constructor" width="100%" height="600" frameBorder="0"></iframe>
                     </div>
                     
 
