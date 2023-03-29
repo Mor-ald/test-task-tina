@@ -4,7 +4,7 @@ blocks:
   - aboutItemFirst:
       text: "## Наши преимущества\n\nСотрудничая с Авторемонтной Мастерской, вы получаете качественный ремонт и обслуживание следующего автотранспорта:\n\n1. Легкового.\n2. Коммерческого.\n3. Грузового (до 5,5т).\n\nВы будете уверенны в его надежной и безотказной работе. Также мы оказываем услуги по установке и ремонту\_рефрижераторов.&#x20;\n\nМастерская имеет все необходимые сертификаты, штат грамотных\_специалистов официальных дилеров\_и доступные цены на ремонт.\n"
       image:
-        src: /uploads/about1.webp
+        src: /about1.webp
     aboutItemSecond:
       text: >
         ## Индивидуальный подход
@@ -17,16 +17,17 @@ blocks:
 
         Ждем вас ежедневно с 8:00 до 20:00!
       image:
-        src: /uploads/about2.webp
+        src: /about2.webp
     aboutSert:
       header: Наш сертификат и договор на оказание услуг
       image:
-        src: /uploads/sert_arm.webp
+        src: /sert_arm.webp
     link: >-
       https://drive.google.com/file/d/1M0dCWJdy_deSf4MD1xNcdqsAn8tlknvb/view?usp=sharing
     color: tint
     _template: about
 ---
+
 
 
 

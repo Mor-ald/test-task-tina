@@ -5,7 +5,7 @@ blocks:
       ## Компьютерная диагностика автомобиля
 
 
-      ![](/uploads/diag.webp)
+      ![](/category_images-01.webp)
 
 
       Считывание кодов неисправностей 800 руб.
@@ -33,4 +33,5 @@ blocks:
     color: tint
     _template: content
 ---
+
 
