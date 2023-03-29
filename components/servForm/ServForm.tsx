@@ -27,8 +27,8 @@ const ServForm = (form: form) => {
     const sendData = useCallback((event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         
-        const TOKEN = process.env.REACT_APP_BOT_TOKEN;
-        const CHAT_ID = process.env.REACT_APP_CHAT_ID;
+        const TOKEN = process.env.NEXT_PUBLIC_BOT_TOKEN;
+        const CHAT_ID = process.env.NEXT_PUBLIC_CHAT_ID;
         const URL = `https://api.telegram.org/bot${ TOKEN }/sendMessage`
         const itemData = {
             nameUser: nameUser,

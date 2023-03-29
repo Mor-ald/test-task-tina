@@ -2,7 +2,6 @@ import { Section } from "../util/section";
 import ServForm from "../servForm/ServForm";
 
 export const ServiceLada = (data) => {
-    console.log(data.serviceLada.header)
     return (
       <Section color={"tint"}>
                     <div className="my-12 mx-24 flex flex-col">
