@@ -11,7 +11,7 @@ export const Layout = ({ rawData = {}, data = layoutData, children }) => {
   return (
     <>
       <Head>
-        <title>Tina</title>
+        <title>Сервис и ремонт ГАЗель и LADA в Санкт-Петербурге | СТО «АРМ»</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         {data.theme.font === "nunito" && (
           <>
