@@ -1,73 +1,75 @@
-import * as React from "react";
+/* eslint-disable react/prop-types */
 import GlobalData from "../../content/global/index.json";
+
+import * as React from "react";
 
 const ThemeContext = React.createContext(GlobalData.theme);
 
 export const useTheme = () => React.useContext(ThemeContext);
 
 const updateRenderColorMode = (themeMode: "dark" | "light") => {
-  if (typeof window !== "undefined") {
-    const root = window.document.documentElement;
-    root.classList.remove("dark");
-    root.classList.remove("light");
-    root.classList.add(themeMode);
-  }
+	if (typeof window !== "undefined") {
+		const root = window.document.documentElement;
+		root.classList.remove("dark");
+		root.classList.remove("light");
+		root.classList.add(themeMode);
+	}
 };
 
 const getUserSystemDarkMode = () => {
-  if (typeof window !== "undefined") {
-    const userMedia = window.matchMedia("(prefers-color-scheme: dark)");
+	if (typeof window !== "undefined") {
+		const userMedia = window.matchMedia("(prefers-color-scheme: dark)");
 
-    if (userMedia.matches) {
-      return "dark";
-    }
-  }
+		if (userMedia.matches) {
+			return "dark";
+		}
+	}
 
-  return "light";
+	return "light";
 };
 
 export const Theme = ({ data, children }) => {
-  const [systemDarkMode, setSystemDarkMode] = React.useState(
-    getUserSystemDarkMode()
-  );
+	const [systemDarkMode, setSystemDarkMode] = React.useState(
+		getUserSystemDarkMode()
+	);
 
-  React.useEffect(() => {
-    if (typeof window !== "undefined") {
-      const userMedia = window.matchMedia("(prefers-color-scheme: dark)");
+	React.useEffect(() => {
+		if (typeof window !== "undefined") {
+			const userMedia = window.matchMedia("(prefers-color-scheme: dark)");
 
-      const updateSystemMediaPreference = (event) => {
-        setSystemDarkMode(event.matches ? "dark" : "light");
-      };
+			const updateSystemMediaPreference = (event) => {
+				setSystemDarkMode(event.matches ? "dark" : "light");
+			};
 
-      userMedia.addEventListener("change", updateSystemMediaPreference);
+			userMedia.addEventListener("change", updateSystemMediaPreference);
 
-      return () =>
-        userMedia.removeEventListener("change", updateSystemMediaPreference);
-    }
-    return;
-  }, [setSystemDarkMode]);
+			return () =>
+				userMedia.removeEventListener("change", updateSystemMediaPreference);
+		}
+		return;
+	}, [setSystemDarkMode]);
 
-  const { color = "blue", font = "sans", darkMode = "system" } = data;
+	const { color = "blue", font = "sans", darkMode = "system" } = data;
 
-  React.useEffect(() => {
-    updateRenderColorMode(
-      darkMode === "system"
-        ? systemDarkMode
-        : darkMode !== ""
-        ? darkMode
-        : "light"
-    );
-  }, [systemDarkMode, darkMode]);
+	React.useEffect(() => {
+		updateRenderColorMode(
+			darkMode === "system"
+				? systemDarkMode
+				: darkMode !== ""
+					? darkMode
+					: "light"
+		);
+	}, [systemDarkMode, darkMode]);
 
-  return (
-    <ThemeContext.Provider
-      value={{
-        color,
-        font,
-        darkMode,
-      }}
-    >
-      {children}
-    </ThemeContext.Provider>
-  );
+	return (
+		<ThemeContext.Provider
+			value={{
+				color,
+				font,
+				darkMode,
+			}}
+		>
+			{children}
+		</ThemeContext.Provider>
+	);
 };

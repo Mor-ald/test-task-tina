@@ -1,41 +1,45 @@
+/* eslint-disable no-unused-vars */ 
+
 import { client } from "../../.tina/__generated__/client";
-import { useTina } from "tinacms/dist/react";
 import { Layout } from "../../components/layout";
 import { ServiceNext } from "../../components/serviceNext/serviceNext";
 
+import { useTina } from "tinacms/dist/react";
+import React from "react";
+
 // Use the props returned by get static props
 export default function ServiceNextPage(
-  props: AsyncReturnType<typeof getStaticProps>["props"]
+	props: AsyncReturnType<typeof getStaticProps>["props"]
 ) {
-  const { data } = useTina({
-    query: props.query,
-    variables: props.variables,
-    data: props.data,
-  });
+	const { data } = useTina({
+		query: props.query,
+		variables: props.variables,
+		data: props.data,
+	});
 
-  if (data) {
-    return (
-      <Layout rawData={data} data={data.global as any}>
-        <ServiceNext {...data} />
-      </Layout>
-    );
-  }
-  return (
-    <Layout>
-      <div>No data</div>;
-    </Layout>
-  );
+	if (data) {
+		return (
+			<Layout rawData={data} data={data.global as any}>
+				<ServiceNext {...data} />
+			</Layout>
+		);
+	}
+	return (
+		<Layout>
+			<div>No data</div>;
+		</Layout>
+	);
 }
 
 export const getStaticProps = async ({ params }) => {
-  const tinaProps = await client.queries.serviceNextDefaultQuery({
-    relativePath: `${params.filename}.md`,
-  });
-  return {
-    props: {
-      ...tinaProps,
-    },
-  };
+	const tinaProps = await client.queries.serviceNextDefaultQuery({
+		relativePath: `${params.filename}.md`,
+	});
+	return {
+		props: {
+			...tinaProps,
+		},
+	};
 };
 
 /**
@@ -46,13 +50,13 @@ export const getStaticProps = async ({ params }) => {
  * be viewable at http://localhost:3000/posts/hello
  */
 export const getStaticPaths = async () => {
-  const serviceListData = await client.queries.serviceNextConnection();
-  return {
-    paths: serviceListData.data.serviceNextConnection.edges.map((service) => ({
-      params: { filename: service.node._sys.filename },
-    })),
-    fallback: "blocking",
-  };
+	const serviceListData = await client.queries.serviceNextConnection();
+	return {
+		paths: serviceListData.data.serviceNextConnection.edges.map((service) => ({
+			params: { filename: service.node._sys.filename },
+		})),
+		fallback: "blocking",
+	};
 };
 
 export type AsyncReturnType<T extends (...args: any) => Promise<any>> =
