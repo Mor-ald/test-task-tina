@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ServiceGaz4216 component renders without crashing 1`] = `
+exports[`serviceSobol component renders without crashing 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>

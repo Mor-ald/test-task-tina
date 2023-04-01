@@ -1,13 +1,13 @@
 /* eslint-disable react/react-in-jsx-scope */
 
-import { ServiceGaz4216 } from "../components/serviceGaz4216/serviceGaz4216";
+import { ServiceNext } from "../components/serviceNext/serviceNext";
 
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 
-describe("ServiceGaz4216 component", () => {
+describe("ServiceNext component", () => {
 	const data = {
-		serviceGaz4216: {
+		serviceNext: {
 			header: "Test Header",
 			time: "1,5",
 			coef: "1000",
@@ -16,12 +16,12 @@ describe("ServiceGaz4216 component", () => {
 	};
     
 	it("renders without crashing", () => {
-		const component = render(<ServiceGaz4216 {...data} />); 
+		const component = render(<ServiceNext {...data} />); 
 		expect(component).toMatchSnapshot();
 	});
 
 	it("renders header, price and model if it exists", () => {
-		render(<ServiceGaz4216 {...data} />);
+		render(<ServiceNext {...data} />);
 		
 		const header = screen.getByTestId("header");
 		const price = screen.getByTestId("price");
@@ -33,7 +33,7 @@ describe("ServiceGaz4216 component", () => {
 	});
   
 	it("renders spec to equal text", () => {
-		render(<ServiceGaz4216 {...data} />);
+		render(<ServiceNext {...data} />);
 		
 		const spec = screen.getByTestId("spec");
 
@@ -44,12 +44,12 @@ describe("ServiceGaz4216 component", () => {
 
 
 	it("renders welcome with model and header", () => {
-		render(<ServiceGaz4216 {...data} />);
+		render(<ServiceNext {...data} />);
 		
 		const welcome = screen.getByTestId("welcome");
 
-		const header = welcome.innerHTML.includes(data.serviceGaz4216.header);
-		const model = welcome.innerHTML.includes(data.serviceGaz4216.model);
+		const header = welcome.innerHTML.includes(data.serviceNext.header);
+		const model = welcome.innerHTML.includes(data.serviceNext.model);
 
 		expect(header).toEqual(true);
 		expect(model).toEqual(true);
