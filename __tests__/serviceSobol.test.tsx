@@ -1,5 +1,3 @@
-/* eslint-disable react/react-in-jsx-scope */
-
 import { ServiceSobol } from "../components/serviceSobol/serviceSobol";
 
 import { render, screen } from "@testing-library/react";

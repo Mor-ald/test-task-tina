@@ -1,4 +1,3 @@
-/* eslint-disable react/react-in-jsx-scope */
 import { Contacts } from "../components/blocks/contacts";
 
 import { render } from "@testing-library/react";

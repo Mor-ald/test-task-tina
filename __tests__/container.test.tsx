@@ -1,5 +1,3 @@
-/* eslint-disable react/react-in-jsx-scope */
-
 import { Container } from "../components/util/container";
 
 import { render } from "@testing-library/react";

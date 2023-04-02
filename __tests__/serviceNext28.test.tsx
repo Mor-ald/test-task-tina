@@ -1,5 +1,3 @@
-/* eslint-disable react/react-in-jsx-scope */
-
 import { ServiceNext28 } from "../components/serviceNext28/serviceNext28";
 
 import { render, screen } from "@testing-library/react";

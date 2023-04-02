@@ -1,4 +1,3 @@
-/* eslint-disable react/react-in-jsx-scope */
 import { AskQuestion } from "../components/blocks/askQuestion";
 
 import { render, screen, fireEvent } from "@testing-library/react";

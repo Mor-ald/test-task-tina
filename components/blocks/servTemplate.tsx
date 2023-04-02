@@ -2,8 +2,6 @@
 
 import { Section } from "../util/section";
 
-import React from "react";
-
 import type { TinaTemplate } from "tinacms";
 
 export const ServTemplate = ({ data, parentField = "" }) => {

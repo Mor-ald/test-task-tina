@@ -5,7 +5,6 @@ import { Container } from "../util/container";
 import { Section } from "../util/section";
 import { useTheme } from "../layout";
 
-import * as React from "react";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 
 import type { TinaTemplate } from "tinacms";

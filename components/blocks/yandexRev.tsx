@@ -3,8 +3,6 @@
 
 import { Section } from "../util/section";
 
-import React from "react";
-
 import type { TinaTemplate } from "tinacms";
 
 export const YandexRev = ({ data }) => {

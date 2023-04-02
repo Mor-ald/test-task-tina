@@ -1,4 +1,3 @@
-/* eslint-disable react/react-in-jsx-scope */
 import { Actions } from "../components/util/actions";
 
 import { render } from "@testing-library/react";

@@ -8,7 +8,6 @@ import { Theme } from "./theme";
 import layoutData from "../../content/global/index.json";
 
 import Head from "next/head";
-import React from "react";
 import { ScrollTop } from "primereact/scrolltop";
          
 

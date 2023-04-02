@@ -1,4 +1,3 @@
-/* eslint-disable react/react-in-jsx-scope */
 import { About } from "../components/blocks/about";
 
 import { render, screen, fireEvent } from "@testing-library/react";

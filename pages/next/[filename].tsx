@@ -5,7 +5,6 @@ import { Layout } from "../../components/layout";
 import { ServiceNext } from "../../components/serviceNext/serviceNext";
 
 import { useTina } from "tinacms/dist/react";
-import React from "react";
 
 // Use the props returned by get static props
 export default function ServiceNextPage(

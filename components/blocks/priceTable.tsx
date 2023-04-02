@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */ 
 import { Section } from "../util/section";
 
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { TreeTable } from "primereact/treetable";
 import { Column } from "primereact/column";
 import axios from "axios";

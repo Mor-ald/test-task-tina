@@ -17,8 +17,6 @@ import { PriceTable } from "./blocks/priceTable";
 import { PhotosGallery } from "./blocks/photosGallery";
 import { ServTemplate } from "./blocks/servTemplate";
 
-import React from "react";
-
 import type { Page } from "../.tina/__generated__/types";
 
 export const Blocks = (props: Omit<Page, "id" | "_sys" | "_values">) => {

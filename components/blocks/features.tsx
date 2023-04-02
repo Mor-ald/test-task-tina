@@ -4,8 +4,6 @@ import { Actions } from "../util/actions";
 import { Section } from "../util/section";
 import { Icon , iconSchema } from "../util/icon";
 
-import React from "react";
-
 export const Feature = ({ featuresColor, data, tinaField }) => {
 	return (
 		<div

@@ -1,5 +1,3 @@
-/* eslint-disable react/react-in-jsx-scope */
-
 import { ServiceLada } from "../components/serviceLada/serviceLada";
 
 import { render, screen } from "@testing-library/react";

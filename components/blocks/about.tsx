@@ -3,7 +3,6 @@
 import { Section } from "../util/section";
 import { Container } from "../util/container";
 
-import React from "react";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { Button } from "primereact/button";
 
