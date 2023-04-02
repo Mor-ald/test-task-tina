@@ -4,6 +4,7 @@ import { Section } from "../util/section";
 
 import { TreeTable } from "primereact/treetable";
 import { Column } from "primereact/column";
+import React from "react";
 
 import type { TinaTemplate } from "tinacms";
 

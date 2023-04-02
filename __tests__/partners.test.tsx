@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { Partners } from "../components/blocks/parthners";
 
 import { render, screen } from "@testing-library/react";

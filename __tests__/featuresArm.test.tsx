@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { FeaturesArm } from "../components/blocks/featuresArm";
 
 import { render } from "@testing-library/react";

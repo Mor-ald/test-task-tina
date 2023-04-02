@@ -4,6 +4,7 @@
 import { Section } from "../util/section";
 
 import { Button } from "primereact/button";
+import React from "react";
 
 import type { TinaTemplate } from "tinacms";
 

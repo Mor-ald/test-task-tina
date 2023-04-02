@@ -5,6 +5,7 @@ import { Layout } from "../../components/layout";
 import { ServiceGaz4216 } from "../../components/serviceGaz4216/serviceGaz4216";
 
 import { useTina } from "tinacms/dist/react";
+import React from "react";
 
 export default function ServiceGaz4216Page(
 	props: AsyncReturnType<typeof getStaticProps>["props"]

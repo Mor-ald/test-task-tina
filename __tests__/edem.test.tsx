@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { Edem } from "../components/blocks/edem";
 
 import { render, screen } from "@testing-library/react";

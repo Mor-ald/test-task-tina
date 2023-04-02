@@ -6,7 +6,7 @@ import ServForm from "../servForm/ServForm";
 import { Button } from "primereact/button";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import Link from "next/link";
-import { useState } from "react";
+import React, { useState } from "react";
 import { Dialog } from "primereact/dialog";
 
 import type { TinaTemplate } from "tinacms";

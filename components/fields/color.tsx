@@ -1,3 +1,4 @@
+import * as React from "react";
 import { wrapFieldsWithMeta } from "tinacms";
 
 export const colorOptions = [

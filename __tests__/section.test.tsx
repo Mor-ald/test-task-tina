@@ -1,3 +1,5 @@
+/* eslint-disable react/react-in-jsx-scope */
+
 import { Section } from "../components/util/section";
 
 import { render } from "@testing-library/react";

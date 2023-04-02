@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { ListLinks } from "../components/blocks/listLinks";
 
 import { render } from "@testing-library/react";

@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { PhotosGallery } from "../components/blocks/photosGallery";
 
 import { render } from "@testing-library/react";

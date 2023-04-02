@@ -2,6 +2,7 @@
 import { Container } from "../util/container";
 import { Section } from "../util/section";
 
+import React from "react";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 
 import type { TinaTemplate } from "tinacms";

@@ -1,3 +1,5 @@
+/* eslint-disable react/react-in-jsx-scope */
+
 import { ServiceGaz4216 } from "../components/serviceGaz4216/serviceGaz4216";
 
 import { render, screen } from "@testing-library/react";

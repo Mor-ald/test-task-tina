@@ -5,6 +5,7 @@ import { Layout } from "../../components/layout";
 import { ServiceSobol } from "../../components/serviceSobol/serviceSobol";
 
 import { useTina } from "tinacms/dist/react";
+import React from "react";
 
 // Use the props returned by get static props
 export default function ServiceSobolPage(

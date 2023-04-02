@@ -3,6 +3,7 @@
 import { Section } from "../util/section";
 
 import { Carousel } from "primereact/carousel";
+import React from "react";
 
 import type { TinaTemplate } from "tinacms";
 

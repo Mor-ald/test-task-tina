@@ -2,6 +2,8 @@
 import ServForm from "../servForm/ServForm";
 import { Section } from "../util/section";
 
+import React from "react";
+
 export const ServiceNext28 = (data) => {
 	return (
 		<Section color={"tint"}>

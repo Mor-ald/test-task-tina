@@ -5,7 +5,7 @@ import { Section } from "../util/section";
 import { Button } from "primereact/button";
 import { Galleria } from "primereact/galleria";
 import { classNames } from "primereact/utils";
-import { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 import type { TinaTemplate } from "tinacms";
 

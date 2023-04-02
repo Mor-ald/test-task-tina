@@ -3,6 +3,8 @@
 import { Container } from "../util/container";
 import { Section } from "../util/section";
 
+import React from "react";
+
 import type { TinaTemplate } from "tinacms";
 
 export const Testimonial = ({ data, parentField = "" }) => {

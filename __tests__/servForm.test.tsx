@@ -1,3 +1,5 @@
+/* eslint-disable react/react-in-jsx-scope */
+
 import ServForm from "../components/servForm/ServForm";
 
 import { fireEvent, render, screen } from "@testing-library/react";
