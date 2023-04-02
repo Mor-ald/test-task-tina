@@ -7,12 +7,11 @@ import React from "react";
 import type { TinaTemplate } from "tinacms";
 
 export const Edem = ({ data }) => {
-
 	return (
 		<Section>
 			<div className="relative py-24 flex flex-col justify-center items-center text-center text-white opacity-85" style={{background: "#121212"}}>
 				<p className="my-4 font-bold text-xl md:text-2xl">Наш партнёр</p>
-				<p className="font-bold text-2xl md:text-4xl">Учебный центр &quot;ЭДЕМ&quot;</p>
+				<p className="font-bold text-2xl md:text-4xl">Учебный центр «ЭДЕМ»</p>
 				<p className="my-4 font-bold text-xl">Приглашает на курсы</p>
 				<p className="my-2 underline">Профподготовки и повышения квалификации
 с последующим <b>трудоустройством</b></p>

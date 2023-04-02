@@ -10,7 +10,7 @@ export const FeaturesArm = ({data}) => {
 
 	const featTemplate = (content) => {
 		return (
-			<div className="flex justify-center my-6 mx-12 md:justify-start" style={{minWidth: "360px"}}>
+			<div key={content.featHeader} className="flex justify-center my-6 mx-12 md:justify-start" style={{minWidth: "360px"}}>
 				<div className="border-r-2 border-gray-400 pr-3 flex justify-center items-center md:pr-6">
 					<img src={`${content.featImg}`} alt="" />
 				</div>
