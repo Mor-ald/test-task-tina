@@ -5,6 +5,7 @@ import { Layout } from "../components/layout";
 import { client } from "../.tina/__generated__/client";
 
 import { useTina } from "tinacms/dist/react";
+import React from "react";
 
 export default function HomePage(
 	props: AsyncReturnType<typeof getStaticProps>["props"]
