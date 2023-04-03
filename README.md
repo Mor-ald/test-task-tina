@@ -6,10 +6,11 @@
 
 ### До
 
-
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/72343402/229541218-7ae190d2-f70d-4826-a505-25a70a4a9ac0.png">
 
 ### После
 
+<img width="492" alt="image" src="https://user-images.githubusercontent.com/72343402/229541738-3599e061-f30c-4ab6-b09a-819a5bc31c18.png">
 
 
 ## В данном проекте используется
