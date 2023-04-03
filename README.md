@@ -1,81 +1,68 @@
-# Tina Starter 🦙
+# TinaCMS STO ARM
 
-![tina-cloud-starter-demo](https://user-images.githubusercontent.com/103008/130587027-995ccc45-a852-4f90-b658-13e8e0517339.gif)
+Тестовый проект по переходу с классической CMS на Headless CMS с целью изучения преимуществ и недостатков используемых технологий для построения статических сайтов.
 
-This Next.js starter is powered by [TinaCMS](https://app.tina.io) for you and your team to visually live edit the structured content of your website. ✨
+Проверка производительности производилась с использованием lighthouse:
 
-The content is managed through Markdown and JSON files stored in your GitHub repository, and queried through Tina GraphQL API.
+### До
 
-### Features
 
-- [Tina Headless CMS](https://app.tina.io) for authentication, content modeling, visual editing and team management.
-- [Vercel](https://vercel.com) deployment to visually edit your site from the `/admin` route.
-- Local development workflow from the filesystem with a local GraqhQL server.
 
-## Requirements
+### После
 
-- Git, [Node.js Active LTS](https://nodejs.org/en/about/releases/), Yarn installed for local development.
-- A [TinaCMS](https://app.tina.io) account for live editing.
 
-## Local Development
 
-Install the project's dependencies:
+## В данном проекте используется
+
+- ```Tina CMS``` для редактирования контента в используемых компонентах приложения.
+- Библиотека компонентов ```PrimeReact```.
+- ```Next.js``` для генерации статических и динамических страниц.
+- ```GraphQl``` для осуществления запросов к данным при работе ```Tina CMS```.
+- ```Eslint``` для линтинга кода.
+- ```Jest``` и ```Testing library React``` для написания тестов.
+
+## Директории приложения
+
+- [Компоненты приложения](https://github.com/Mor-ald/tina-sto-arm/tree/main/components) и использумые [блоки](https://github.com/Mor-ald/tina-sto-arm/tree/main/components/blocks) в TinaCMS.
+- [Контент веб-страниц](https://github.com/Mor-ald/tina-sto-arm/tree/main/content).
+- [Генерация страниц](https://github.com/Mor-ald/tina-sto-arm/tree/main/pages).
+- [Медиафайлы](https://github.com/Mor-ald/tina-sto-arm/tree/main/public).
+- [Тесты переиспользуемых компонентов](https://github.com/Mor-ald/tina-sto-arm/tree/main/__tests__).
+- [Конфигурация CMS и GrapgQl запросов](https://github.com/Mor-ald/tina-sto-arm/tree/main/.tina).
+
+## Развертывание приложения
+
+Установка зависимостей:
 
 ```
-yarn install
+yarn
 ```
 
-Run the project locally:
+Запуск приложения:
 
 ```
 yarn dev
 ```
 
-### Local URLs
+Приложение будет доступно по адресу ```http://localhost:3000/```,  для доступа к панели администратора нужно перейти по адресу ```http://localhost:3000/admin```.
 
-- http://localhost:3000 : browse the website
-- http://localhost:3000/admin : connect to Tina Cloud and go in edit mode
-- http://localhost:3000/exit-admin : log out of Tina Cloud
-- http://localhost:4001/altair/ : GraphQL playground to test queries and browse the API documentation
-
-### Building the Starter Locally (Using the hosted content API)
-
-Replace the `.env.example`, with `.env`
+Запуск линтинга:
 
 ```
-NEXT_PUBLIC_TINA_CLIENT_ID=<get this from the project you create at app.tina.io>
-TINA_TOKEN=<get this from the project you create at app.tina.io>
-NEXT_PUBLIC_TINA_BRANCH=<Specify the branch with Tina configured>
+yarn lint
 ```
 
-Build the project:
+Или (для автоматического исправления):
 
-```bash
-yarn build
+```
+yarn lint:fix
 ```
 
-## Getting Help
+Запуск тестов:
 
-To get help with any TinaCMS challenges you may have:
-
-- Visit the [documentation](https://tina.io/docs/) to learn about Tina.
-- [Join our Discord](https://discord.gg/zumN63Ybpf) to share feedback.
-- Visit the [community forum](https://community.tinacms.org/) to ask questions.
-- Get support through the chat widget on the TinaCMS Dashboard
-- [Email us](mailto:support@tina.io) to schedule a call with our team and share more about your context and what you're trying to achieve.
-- [Search or open an issue](https://github.com/tinacms/tinacms/issues) if something is not working.
-- Reach out on Twitter at [@tina_cms](https://twitter.com/tina_cms).
-
-## Development tips
-
-### Visual Studio Code GraphQL extension
-
-[Install the GraphQL extension](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql) to benefit from type auto-completion.
-
-### Typescript
-
-A good way to ensure your components match the shape of your data is to leverage the auto-generated TypeScript types.
-These are rebuilt when your `.tina` config changes.
+```
+yarn test
+```
 
 ## LICENSE
 
