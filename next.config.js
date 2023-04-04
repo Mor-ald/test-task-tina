@@ -20,4 +20,5 @@ module.exports = {
 			},
 		];
 	},
+	output: "standalone",
 };
