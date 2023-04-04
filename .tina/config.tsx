@@ -25,6 +25,7 @@ const config = defineConfig({
   branch:
     process.env.NEXT_PUBLIC_TINA_BRANCH! || // custom branch env override
     process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF! || // Vercel branch env
+    process.env.REACT_APP_BRANCH || // Local branch
     process.env.HEAD!, // Netlify branch env
   token: process.env.REACT_APP_TOKEN!,
   media: {
