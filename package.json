@@ -9,7 +9,7 @@
     "export": "npm run build && next export",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "eslint --fix . --ext .ts,.tsx",
-    "test": "jest"
+    "test": "jest -u"
   },
   "devDependencies": {
     "@svgr/webpack": "^6.3.1",
