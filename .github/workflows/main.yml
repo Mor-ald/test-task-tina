@@ -112,54 +112,54 @@ jobs:
           push: true
           tags: ${DOCKERHUB_USERNAME}/tinacms-sto-arm:latest
 
-  build-and-deploy-app:
-  
-    name: Build and deploy App to Netlify
-    needs: [create-and-push-docker-image]
+  # build-and-deploy-app:
+
+  #   name: Build and deploy App to Netlify
+  #   needs: [create-and-push-docker-image]
     
-    runs-on: ${{ matrix.os }}
+  #   runs-on: ${{ matrix.os }}
 
-    strategy:
-      matrix:
-        os: [ubuntu-20.04]
-        node: [16]
+  #   strategy:
+  #     matrix:
+  #       os: [ubuntu-20.04]
+  #       node: [16]
 
-    steps:
+  #   steps:
 
-      # Download artifact
-      - name: Download a env file artifact
-        uses: actions/download-artifact@v3
-          with:
-            name: env
-            path: /
+  #     # Download artifact
+  #     - name: Download a env file artifact
+  #       uses: actions/download-artifact@v3
+  #         with:
+  #           name: env
+  #           path: /.env
       
-      # Build App
-      - name: Checkout Last Branch Commit 
-        uses: actions/checkout@v3
+  #     # Build App
+  #     - name: Checkout Last Branch Commit 
+  #       uses: actions/checkout@v3
 
-      - name: Setup Node Env 
-        uses: actions/setup-node@v2.1.2
-        with:
-          node-version: ${{ matrix.node }}
+  #     - name: Setup Node Env 
+  #       uses: actions/setup-node@v2.1.2
+  #       with:
+  #         node-version: ${{ matrix.node }}
 
-      - name: Install dependencies
-        run: yarn install
+  #     - name: Install dependencies
+  #       run: yarn install
 
-      - name: Build project
-        run: yarn build
+  #     - name: Build project
+  #       run: yarn build
 
-      # Deploy project to Netlify
-      - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v1.2
-        with:
-          publish-dir: "./next"
-          production-branch: main
-          github-token: ${ACCESS_TOKEN}
-          deploy-message: "Deploy from GitHub Actions"
-          enable-pull-request-comment: false
-          enable-commit-comment: true
-          overwrites-pull-request-comment: true
-        env:
-          NETLIFY_AUTH_TOKEN: ${NETLIFY_AUTH_TOKEN}
-          NETLIFY_SITE_ID: ${secrets.NETLIFY_SITE_ID}
-        timeout-minutes: 1
+  #     # Deploy project to Netlify
+  #     - name: Deploy to Netlify
+  #       uses: nwtgck/actions-netlify@v1.2
+  #       with:
+  #         publish-dir: "./next"
+  #         production-branch: main
+  #         github-token: ${ACCESS_TOKEN}
+  #         deploy-message: "Deploy from GitHub Actions"
+  #         enable-pull-request-comment: false
+  #         enable-commit-comment: true
+  #         overwrites-pull-request-comment: true
+  #       env:
+  #         NETLIFY_AUTH_TOKEN: ${NETLIFY_AUTH_TOKEN}
+  #         NETLIFY_SITE_ID: ${secrets.NETLIFY_SITE_ID}
+  #       timeout-minutes: 1
