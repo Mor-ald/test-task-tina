@@ -69,7 +69,7 @@ jobs:
         with:
           name: env
           path: |
-            /env
+            .env
   
   create-and-push-docker-image:
 
@@ -85,7 +85,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: env
-          path: /env
+          path: .env
 
       - name: Checkout repository
         uses: actions/checkout@v3
