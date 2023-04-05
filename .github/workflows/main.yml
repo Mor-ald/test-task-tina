@@ -47,7 +47,7 @@ jobs:
   create-and-push-docker-image:
 
     name: Create & Push docker image
-    needs: [create-env-file]
+    needs: [lint-and-test-app]
 
     runs-on: ubuntu-20.04
 
