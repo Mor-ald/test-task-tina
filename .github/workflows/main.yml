@@ -1,0 +1,25 @@
+name: Project WorkFlow
+
+  on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  jobs:
+    eslint:
+      runs-on: ${{ matrix.os }}
+      strategy:
+        matrix:
+          os: [ubuntu-18.04, ubuntu-20.04]
+          node: [16]
+        steps:
+          - uses: actions/checkout@v2
+          - uses: actions/setup-node@v1
+            with:
+              node-version: ${{ matrix.node-version }}           
+          - name: Install dependencies
+            run: npm ci
+          - name: Run eslint
+            run: npm run lint
+
