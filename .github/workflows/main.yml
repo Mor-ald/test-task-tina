@@ -68,6 +68,9 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
           
+      - name: Install yarn
+        run: npm install yarn -g    
+
       - name: 'Create env file'
         run: |
           touch .env
