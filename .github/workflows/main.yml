@@ -6,20 +6,14 @@ on:
   pull_request:
     branches: [ main ]
 
-jobs:
-  eslint:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-18.04, ubuntu-20.04]
-        node: [16]
+  jobs:
+    eslint:
+      runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v2
-        - name: Use Node.js ${{ matrix.node }}
-          uses: actions/setup-node@v1
-          with:
-            node-version: ${{ matrix.node }}           
-        - run: |
-          npm ci
-          npm run lint
+        - name: Install dependencies
+          run: npm ci
+        - name: Run eslint
+          run: npm run lint
+
 
