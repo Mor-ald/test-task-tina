@@ -64,7 +64,7 @@ jobs:
       - name: Install yarn 💊
         run: npm install yarn -g    
 
-      - name: 'Create env file' ✉
+      - name: 'Create env file' 
         run: |
           touch .env
           echo REACT_APP_BOT_TOKEN= ${{ secrets.REACT_APP_BOT_TOKEN }} >> .env
@@ -110,7 +110,7 @@ jobs:
 
     steps:
     
-      - name: 'Create env file' ✉
+      - name: 'Create env file' 
         run: |
           touch .env
           echo REACT_APP_BOT_TOKEN= ${{ secrets.REACT_APP_BOT_TOKEN }} >> .env
@@ -132,7 +132,7 @@ jobs:
       - name: Install dependencies 💼
         run: yarn install
 
-      - name: Build project 🛠
+      - name: Build project 🔧
         run: yarn build
 
       # Deploy project to Netlify
