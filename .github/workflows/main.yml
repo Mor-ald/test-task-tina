@@ -45,6 +45,7 @@ jobs:
         run: yarn test
   
   create-env-file:
+
     name: Create .env file 
     needs: [lint-and-test-app]
 
@@ -70,93 +71,95 @@ jobs:
           path: |
             /.env
   
-  # create-and-push-docker-image:
-  #   name: Create & Push docker image
-  #   needs: [create-env-file]
+  create-and-push-docker-image:
 
-  #   runs-on: ubuntu-20.04
+    name: Create & Push docker image
+    needs: [create-env-file]
 
-  #   steps:
+    runs-on: ubuntu-20.04
 
-  #     # Download artifact
-  #     - name: Download a env file artifact
-  #       uses: actions/download-artifact@v3
-  #       with:
-  #         name: env
-  #         path: /
+    steps:
 
-  #     - name: Checkout repository
-  #       uses: actions/checkout@v3
+      # Download artifact
+      - name: Download a env file artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: env
+          path: /.env
 
-  #     - name: Set up QEMU
-  #       uses: docker/setup-qemu-action@v1
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-  #     - name: Set up Docker Buildx
-  #       uses: docker/setup-buildx-action@v1
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v1
 
-  #     - name: Log in to Docker Hub
-  #       env:
-  #         DOCKER_USERNAME: ${DOCKERHUB_USERNAME}
-  #         DOCKER_PASSWORD: ${DOCKERHUB_TOKEN}
-  #       run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+
+      - name: Log in to Docker Hub
+        env:
+          DOCKER_USERNAME: ${DOCKERHUB_USERNAME}
+          DOCKER_PASSWORD: ${DOCKERHUB_TOKEN}
+        run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
         
-  #     - name: Build and push
-  #       uses: docker/build-push-action@v2
-  #       with:
-  #         # This path is totally independant from the 'file' directve below
-  #         context: ./
-  #         # This path is totally independant from the 'context' directive above
-  #         file: ./Dockerfile
-  #         push: true
-  #         tags: ${DOCKERHUB_USERNAME}/tinacms-sto-arm:latest
+      - name: Build and push
+        uses: docker/build-push-action@v2
+        with:
+          # This path is totally independant from the 'file' directve below
+          context: ./
+          # This path is totally independant from the 'context' directive above
+          file: ./Dockerfile
+          push: true
+          tags: ${DOCKERHUB_USERNAME}/tinacms-sto-arm:latest
 
-  # build-and-deploy-app:
-  #   name: Build and deploy App to Netlify
-  #   needs: [create-and-push-docker-image]
+  build-and-deploy-app:
+  
+    name: Build and deploy App to Netlify
+    needs: [create-and-push-docker-image]
     
-  #   runs-on: ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
 
-  #   strategy:
-  #     matrix:
-  #       os: [ubuntu-20.04]
-  #       node: [16]
+    strategy:
+      matrix:
+        os: [ubuntu-20.04]
+        node: [16]
 
-  #   steps:
+    steps:
 
-  #     # Download artifact
-  #     - name: Download a env file artifact
-  #       uses: actions/download-artifact@v3
-  #         with:
-  #           name: env
-  #           path: /
+      # Download artifact
+      - name: Download a env file artifact
+        uses: actions/download-artifact@v3
+          with:
+            name: env
+            path: /
       
-  #     # Build App
-  #     - name: Checkout Last Branch Commit 
-  #       uses: actions/checkout@v3
+      # Build App
+      - name: Checkout Last Branch Commit 
+        uses: actions/checkout@v3
 
-  #     - name: Setup Node Env 
-  #       uses: actions/setup-node@v2.1.2
-  #       with:
-  #         node-version: ${{ matrix.node }}
+      - name: Setup Node Env 
+        uses: actions/setup-node@v2.1.2
+        with:
+          node-version: ${{ matrix.node }}
 
-  #     - name: Install dependencies
-  #       run: yarn install
+      - name: Install dependencies
+        run: yarn install
 
-  #     - name: Build project
-  #       run: yarn build
+      - name: Build project
+        run: yarn build
 
-  #     # Deploy project to Netlify
-  #     - name: Deploy to Netlify
-  #       uses: nwtgck/actions-netlify@v1.2
-  #       with:
-  #         publish-dir: "./next"
-  #         production-branch: main
-  #         github-token: ${ACCESS_TOKEN}
-  #         deploy-message: "Deploy from GitHub Actions"
-  #         enable-pull-request-comment: false
-  #         enable-commit-comment: true
-  #         overwrites-pull-request-comment: true
-  #       env:
-  #         NETLIFY_AUTH_TOKEN: ${NETLIFY_AUTH_TOKEN}
-  #         NETLIFY_SITE_ID: ${secrets.NETLIFY_SITE_ID}
-  #       timeout-minutes: 1
+      # Deploy project to Netlify
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v1.2
+        with:
+          publish-dir: "./next"
+          production-branch: main
+          github-token: ${ACCESS_TOKEN}
+          deploy-message: "Deploy from GitHub Actions"
+          enable-pull-request-comment: false
+          enable-commit-comment: true
+          overwrites-pull-request-comment: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${NETLIFY_AUTH_TOKEN}
+          NETLIFY_SITE_ID: ${secrets.NETLIFY_SITE_ID}
+        timeout-minutes: 1
