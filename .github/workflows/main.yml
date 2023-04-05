@@ -43,15 +43,18 @@ jobs:
 
       - name: Run Tests
         run: yarn test
-  
-  create-env-file:
+   
+  create-and-push-docker-image:
 
-    name: Create .env file 
-    needs: [lint-and-test-app]
+    name: Create & Push docker image
+    needs: [create-env-file]
 
     runs-on: ubuntu-20.04
 
     steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
       - name: 'Create env file'
         run: |
@@ -62,33 +65,6 @@ jobs:
           echo REACT_APP_CLIENT_ID= ${{ secrets.REACT_APP_CLIENT_ID }} >> .env
           echo REACT_APP_TOKEN= ${{ secrets.REACT_APP_TOKEN }} >> .env
           cat .env
-      
-      # Create artifact
-      - name: Archive env file artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: env
-          path: |
-            .env
-  
-  create-and-push-docker-image:
-
-    name: Create & Push docker image
-    needs: [create-env-file]
-
-    runs-on: ubuntu-20.04
-
-    steps:
-
-      # Download artifact
-      - name: Download a env file artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: env
-          path: .env
-
-      - name: Checkout repository
-        uses: actions/checkout@v3
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
@@ -112,54 +88,56 @@ jobs:
           push: true
           tags: ${DOCKERHUB_USERNAME}/tinacms-sto-arm:latest
 
-  # build-and-deploy-app:
+  build-and-deploy-app:
 
-  #   name: Build and deploy App to Netlify
-  #   needs: [create-and-push-docker-image]
+    name: Build and deploy App to Netlify
+    needs: [create-and-push-docker-image]
     
-  #   runs-on: ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
 
-  #   strategy:
-  #     matrix:
-  #       os: [ubuntu-20.04]
-  #       node: [16]
+    strategy:
+      matrix:
+        os: [ubuntu-20.04]
+        node: [16]
 
-  #   steps:
-
-  #     # Download artifact
-  #     - name: Download a env file artifact
-  #       uses: actions/download-artifact@v3
-  #         with:
-  #           name: env
-  #           path: /.env
+    steps:
+    
+      - name: 'Create env file'
+        run: |
+          touch .env
+          echo REACT_APP_BOT_TOKEN= ${{ secrets.REACT_APP_BOT_TOKEN }} >> .env
+          echo REACT_APP_CHAT_ID= ${{ secrets.REACT_APP_CHAT_ID }} >> .env
+          echo REACT_APP_BRANCH= ${{ secrets.REACT_APP_BRANCH }} >> .env
+          echo REACT_APP_CLIENT_ID= ${{ secrets.REACT_APP_CLIENT_ID }} >> .env
+          echo REACT_APP_TOKEN= ${{ secrets.REACT_APP_TOKEN }} >> .env
+          cat .env
       
-  #     # Build App
-  #     - name: Checkout Last Branch Commit 
-  #       uses: actions/checkout@v3
+      # Build App
+      - name: Checkout Last Branch Commit 
+        uses: actions/checkout@v3
 
-  #     - name: Setup Node Env 
-  #       uses: actions/setup-node@v2.1.2
-  #       with:
-  #         node-version: ${{ matrix.node }}
+      - name: Setup Node Env 
+        uses: actions/setup-node@v2.1.2
+        with:
+          node-version: ${{ matrix.node }}
 
-  #     - name: Install dependencies
-  #       run: yarn install
+      - name: Install dependencies
+        run: yarn install
 
-  #     - name: Build project
-  #       run: yarn build
+      - name: Build project
+        run: yarn build
 
-  #     # Deploy project to Netlify
-  #     - name: Deploy to Netlify
-  #       uses: nwtgck/actions-netlify@v1.2
-  #       with:
-  #         publish-dir: "./next"
-  #         production-branch: main
-  #         github-token: ${ACCESS_TOKEN}
-  #         deploy-message: "Deploy from GitHub Actions"
-  #         enable-pull-request-comment: false
-  #         enable-commit-comment: true
-  #         overwrites-pull-request-comment: true
-  #       env:
-  #         NETLIFY_AUTH_TOKEN: ${NETLIFY_AUTH_TOKEN}
-  #         NETLIFY_SITE_ID: ${secrets.NETLIFY_SITE_ID}
-  #       timeout-minutes: 1
+      # Deploy project to Netlify
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v1.2
+        with:
+          publish-dir: "./next"
+          production-branch: main
+          github-token: ${ACCESS_TOKEN}
+          deploy-message: "Deploy from GitHub Actions"
+          enable-pull-request-comment: false
+          enable-commit-comment: true
+          overwrites-pull-request-comment: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${NETLIFY_AUTH_TOKEN}
+          NETLIFY_SITE_ID: ${secrets.NETLIFY_SITE_ID}
