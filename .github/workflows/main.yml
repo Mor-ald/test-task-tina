@@ -12,6 +12,7 @@ env:
   ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
   NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
   NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+  DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
 
 jobs:
 
@@ -72,10 +73,10 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
 
-      - name: Log in to Docker Hub
+      - name: Login to Docker Hub
         env:
           DOCKER_USERNAME: ${DOCKERHUB_USERNAME}
-          DOCKER_PASSWORD: ${DOCKERHUB_TOKEN}
+          DOCKER_PASSWORD: ${DOCKER_PASSWORD}
         run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
         
       - name: Build and push
