@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable no-unused-vars */ 
+/* eslint-disable import/no-unresolved */
 
 import { Blocks } from "../components/blocks-renderer";
 import { Layout } from "../components/layout";

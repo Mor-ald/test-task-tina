@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable no-unused-vars */ 
+/* eslint-disable import/no-unresolved */
 
 import { client } from "../../.tina/__generated__/client";
 import { Layout } from "../../components/layout";
