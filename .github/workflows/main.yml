@@ -99,7 +99,7 @@ jobs:
   build-and-deploy-app:
 
     name: Build and deploy App to Netlify 
-    needs: [create-and-push-docker-image]
+    # needs: [create-and-push-docker-image]
     
     runs-on: ${{ matrix.os }}
 
