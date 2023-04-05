@@ -131,12 +131,20 @@ jobs:
 
       - name: Build project 🔧
         run: yarn build
+      
+      # Create artifact
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: build
+          path: |
+            build
 
       # Deploy project to Netlify
       - name: Deploy to Netlify 🚀
         uses: nwtgck/actions-netlify@v1.2
         with:
-          publish-dir: "./.next"
+          publish-dir: "./build"
           production-branch: main
           github-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-message: "Deploy from GitHub Actions"
