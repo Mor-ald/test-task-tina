@@ -68,7 +68,7 @@ jobs:
         with:
           name: env
           path: |
-            /
+            /.env
   
   # create-and-push-docker-image:
   #   name: Create & Push docker image
