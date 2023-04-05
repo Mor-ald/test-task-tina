@@ -65,10 +65,10 @@ jobs:
       # Create artifact
       - name: Archive env file artifacts
         uses: actions/upload-artifact@v3
-          with:
-            name: env
-            path: |
-              /
+        with:
+          name: env
+          path: |
+            /
   
   create-and-push-docker-image:
     name: Create & Push docker image
