@@ -107,19 +107,16 @@ jobs:
       matrix:
         os: [ubuntu-20.04]
         node: [16]
-
-    steps:
     
-      - name: 'Create env file' 
-        run: |
-          touch .env
-          echo REACT_APP_BOT_TOKEN= ${{ secrets.REACT_APP_BOT_TOKEN }} >> .env
-          echo REACT_APP_CHAT_ID= ${{ secrets.REACT_APP_CHAT_ID }} >> .env
-          echo REACT_APP_BRANCH= ${{ secrets.REACT_APP_BRANCH }} >> .env
-          echo REACT_APP_CLIENT_ID= ${{ secrets.REACT_APP_CLIENT_ID }} >> .env
-          echo REACT_APP_TOKEN= ${{ secrets.REACT_APP_TOKEN }} >> .env
-          cat .env
-      
+    env: 
+          REACT_APP_BOT_TOKEN: ${{ secrets.REACT_APP_BOT_TOKEN }}
+          REACT_APP_CHAT_ID: ${{ secrets.REACT_APP_CHAT_ID }}
+          REACT_APP_BRANCH: ${{ secrets.REACT_APP_BRANCH }}
+          REACT_APP_CLIENT_ID: ${{ secrets.REACT_APP_CLIENT_ID }}
+          REACT_APP_TOKEN: ${{ secrets.REACT_APP_TOKEN }}
+          
+    steps:
+          
       # Build App
       - name: Checkout Last Branch Commit 🔍 
         uses: actions/checkout@v3
