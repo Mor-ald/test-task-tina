@@ -12,8 +12,8 @@ env:
   ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
   NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
   NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-  DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
-  DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+  # DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+  # DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
 
 jobs:
 
@@ -76,8 +76,8 @@ jobs:
 
       - name: Login to Docker Hub
         env:
-          DOCKER_USERNAME: ${DOCKERHUB_USERNAME}
-          DOCKER_PASSWORD: ${DOCKER_PASSWORD}
+          DOCKER_USERNAME:  ${{ secrets.DOCKERHUB_USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
         run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
         
       - name: Build and push
@@ -88,7 +88,7 @@ jobs:
           # This path is totally independant from the 'context' directive above
           file: ./Dockerfile
           push: true
-          tags: ${DOCKERHUB_USERNAME}/tinacms-sto-arm:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/tinacms-sto-arm:latest
 
   build-and-deploy-app:
 
