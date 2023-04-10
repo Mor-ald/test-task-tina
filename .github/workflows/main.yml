@@ -158,7 +158,7 @@ jobs:
       - name: Production deployment 🚀
         id: deploy-netlify
         run: |
-          COMMAND="netlify deploy"
+          COMMAND="netlify deploy --build --context deploy-preview"
           OUTPUT=$(sh -c "$COMMAND")
 
           NETLIFY_LOGS_URL=$(echo "$OUTPUT" | grep -Eo '(http|https)://app.netlify.com/[a-zA-Z0-9./?=_-]*') # Unique key: app.netlify.com
