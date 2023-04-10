@@ -21,4 +21,5 @@ module.exports = {
 		];
 	},
 	output: "standalone",
+	distDir: "dist",
 };

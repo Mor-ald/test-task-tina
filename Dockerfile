@@ -29,7 +29,7 @@ COPY --from=builder /tina-sto-arm/next.config.js ./
 COPY --from=builder /tina-sto-arm/.env ./
 COPY --from=builder /tina-sto-arm/public ./public
 COPY --from=builder /tina-sto-arm/package.json ./package.json
-COPY --from=builder /tina-sto-arm/.next ./.next
+COPY --from=builder /tina-sto-arm/dist ./dist
 COPY --from=builder /tina-sto-arm/node_modules ./node_modules
 
 # Port
