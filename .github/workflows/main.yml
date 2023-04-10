@@ -132,20 +132,24 @@ jobs:
       - name: Install dependencies 💼
         run: yarn install
 
+       # Cache node modules and build folder
+      - name: 📬 Caching
+        uses: actions/cache@v2
+        with:
+          path: |
+            **/node_modules
+            ${{ github.workspace }}/dist/cache
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+
       - name: Build project 🔧
-        run: yarn build
+        run: yarn build --if-present
               
       # Deploy project to Netlify
       - name: Deploy to Netlify 🚀
-        uses: nwtgck/actions-netlify@v1.2
-        with:
-          publish-dir: "./dist"
-          production-branch: main
-          github-token: ${{ secrets.ACCESS_TOKEN }}
-          deploy-message: "Deploy from GitHub Actions"
-          enable-pull-request-comment: false
-          enable-commit-comment: true
-          overwrites-pull-request-comment: true
+        id: deploy-netlify
+        uses: netlify/actions/cli@master
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        with:
+          args: deploy --dir=dist --prod
