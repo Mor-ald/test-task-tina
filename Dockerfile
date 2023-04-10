@@ -31,7 +31,12 @@ COPY --from=builder /tina-sto-arm/public ./public
 COPY --from=builder /tina-sto-arm/package.json ./package.json
 COPY --from=builder /tina-sto-arm/dist ./dist
 COPY --from=builder /tina-sto-arm/.tina ./.tina
+COPY --from=builder /tina-sto-arm/__tests__ ./__tests__
+COPY --from=builder /tina-sto-arm/components ./components
+COPY --from=builder /tina-sto-arm/pages ./pages
+COPY --from=builder /tina-sto-arm/content ./content
 COPY --from=builder /tina-sto-arm/node_modules ./node_modules
+COPY . .
 
 # Port
 EXPOSE 3000
