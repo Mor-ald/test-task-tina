@@ -133,7 +133,7 @@ jobs:
         run: yarn install
 
        # Cache node modules and build folder
-      - name: 📬 Caching
+      - name: Caching 📬
         uses: actions/cache@v2
         with:
           path: |
@@ -142,7 +142,7 @@ jobs:
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
 
       - name: Build project 🔧
-        run: yarn build --if-present
+        run: yarn build
               
       # Deploy project to Netlify
       - name: Deploy to Netlify 🚀
