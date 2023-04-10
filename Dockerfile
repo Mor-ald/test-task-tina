@@ -17,7 +17,7 @@ FROM base AS builder
 WORKDIR /tina-sto-arm
 COPY --from=dependencies /tina-sto-arm/node_modules ./node_modules
 COPY . .
-RUN yarn build
+RUN yarn docker
 
 # Production image, copy all the files and run next
 FROM base AS runner
