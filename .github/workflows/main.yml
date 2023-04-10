@@ -129,6 +129,16 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
+
+       # Cache node modules and next folder
+      - name: Caching 📬
+        uses: actions/cache@v2
+        with:
+          path: |
+            **/node_modules
+            ${{ github.workspace }}/dist/cache
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+
       - name: Install dependencies 💼
         run: yarn install
              
@@ -145,7 +155,7 @@ jobs:
 
       # Deploys the website to Netlify extracting the deploy metadata.
       # Adapted from the Netlify Github Action.
-      - name: Production deployment
+      - name: Production deployment 🚀
         id: deploy-netlify
         run: |
           COMMAND="netlify deploy --prod"
